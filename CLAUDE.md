@@ -5,7 +5,9 @@ Read this, `README.md` and `docs/PROJECT-NOTES.md` before changing anything.
 ## What this is
 Static-exported Next.js 16 + Tailwind 4 portfolio for Abdelrhman Mohsen, BIM architect and
 architectural designer. It replaces the older static HTML site in `D:/por/personal porfolio/`,
-which is kept untouched as a reference. Build output is `out/`. Nothing is deployed yet.
+which is kept untouched as a reference. Build output is `out/`. Live on GitHub Pages:
+https://abdelrhmanmohsen92000-blip.github.io/abdelrhman-mohsen/ (`npm run publish:pages` pushes
+`out/` to the `gh-pages` branch; source code is on `main`).
 
 ## Rules that matter most
 - **Never invent facts.** Every project field, metric, date and role must trace to the CV, the

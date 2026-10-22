@@ -2,6 +2,9 @@
 
 Decisions, sources and test results for the portfolio, written on 21–22 October 2026.
 
+Published on 22 October 2026 at https://abdelrhmanmohsen92000-blip.github.io/abdelrhman-mohsen/
+(GitHub Pages, `gh-pages` branch, via `npm run publish:pages`).
+
 ## 1. Skills and tools: what was used and why
 
 | Skill / tool | Used for | Status |
@@ -16,7 +19,8 @@ Decisions, sources and test results for the portfolio, written on 21–22 Octobe
 | Lighthouse 12 (via `npx`, not a dependency) | Performance, accessibility, best-practice and SEO audits | Used, results in §7 |
 | Skills considered but not used | `brainstorming` (its interactive Q&A conflicts with the brief's "work autonomously"), `ui-ux-pro-max`, `gsap-*`/`lenis` (no animation library needed), `webapp-testing` (the browser pane covered it), 21st.dev skills (no component library wanted) | Not used |
 
-No MCP integration (Revit, Canva, Drive, Gmail) was needed. Nothing was published or deployed.
+No MCP integration (Revit, Canva, Drive, Gmail) was needed. The site was published to GitHub
+Pages with the GitHub CLI after Abdelrhman asked for it.
 
 ## 2. Sources of truth
 

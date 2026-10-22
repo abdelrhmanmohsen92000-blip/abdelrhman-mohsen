@@ -12,7 +12,8 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "media": "node scripts/build-media.mjs",
-    "media:import": "node scripts/import-masters.mjs"
+    "media:import": "node scripts/import-masters.mjs",
+    "publish:pages": "node scripts/publish-pages.mjs"
   },
   "dependencies": {
     "next": "16.4.2",

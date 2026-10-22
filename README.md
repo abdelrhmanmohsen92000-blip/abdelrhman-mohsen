@@ -38,6 +38,7 @@ npm start          # serves out/ at http://localhost:3000
 | `npm run typecheck` | TypeScript, no emit |
 | `npm run media` | Regenerates image variants from `assets/masters/` (incremental) |
 | `npm run media:import` | One-time copy of originals from `D:/por/...` into `assets/masters/` |
+| `npm run publish:pages` | Builds the site and publishes it to GitHub Pages (see Deployment) |
 
 Set `SITE_URL` when building for production so canonical links, Open Graph tags and the
 sitemap use the real domain:
@@ -121,9 +122,24 @@ links.
 
 ## Deployment
 
-The site is a static export. Nothing has been deployed yet.
+The site is a static export, so it can be hosted anywhere.
 
-### Vercel (simplest)
+### Live now: GitHub Pages
+
+**https://abdelrhmanmohsen92000-blip.github.io/abdelrhman-mohsen/**
+
+The built site lives on the `gh-pages` branch, which GitHub Pages serves (repository
+**Settings → Pages**: source *Deploy from a branch*, `gh-pages` / root). To publish changes:
+
+1. Edit content, check it with `npm run dev`.
+2. Commit and push your changes to `main` (so the source stays in sync).
+3. Run `npm run publish:pages`. It builds with the `/abdelrhman-mohsen` base path, adds
+   `.nojekyll`, and force-pushes `out/` to `gh-pages`. The update is live in 1–3 minutes.
+
+For a custom domain: add it under **Settings → Pages → Custom domain**, then publish with
+`SITE_URL=https://your-domain npm run publish:pages` (no base path is used when `SITE_URL` is set).
+
+### Vercel (alternative)
 
 1. Push this folder to a GitHub repository.
 2. In Vercel, **Add New → Project**, import the repository. The Next.js preset is detected;
@@ -131,20 +147,20 @@ The site is a static export. Nothing has been deployed yet.
 3. Add the environment variable `SITE_URL` = your final URL (e.g. `https://abdelrhmanmohsen.com`).
 4. Deploy. Add a custom domain under **Settings → Domains** if you have one.
 
-### GitHub Pages
+### GitHub Pages with GitHub Actions (alternative to the publish script)
 
-A ready workflow is included as `docs/github-pages-workflow.example.yml` (kept out of
-`.github/` because the site deploys on Vercel). To use GitHub Pages instead:
+A ready workflow is included as `docs/github-pages-workflow.example.yml`. It builds on every
+push to `main` instead of running `npm run publish:pages` yourself:
 
 1. Copy it to `.github/workflows/deploy-pages.yml` and push. Pushing workflow files from the
    GitHub CLI needs the extra scope: `gh auth refresh -s workflow`.
-   In the repository, **Settings → Pages → Source: GitHub Actions**.
+   Then switch **Settings → Pages → Source** to **GitHub Actions**.
 2. If the site will live at `https://<user>.github.io/<repo>/`, add repository variables
    (**Settings → Secrets and variables → Actions → Variables**):
    `NEXT_PUBLIC_BASE_PATH` = `/<repo>` and `SITE_URL` = `https://<user>.github.io`.
    For a custom domain or a `<user>.github.io` repository, leave `NEXT_PUBLIC_BASE_PATH` empty
    and set `SITE_URL` to the domain.
-2. Push to `main`; the workflow builds and publishes `out/`.
+3. Push to `main`; the workflow builds and publishes `out/`.
 
 ### Any static host (Netlify, Cloudflare Pages, S3, cPanel)
 
