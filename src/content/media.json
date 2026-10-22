@@ -1,0 +1,1577 @@
+{
+  "bim/cde-structure": {
+    "width": 785,
+    "height": 516,
+    "kind": "drawing",
+    "widths": [
+      785
+    ],
+    "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAgCdASoYABAAPu1iqk2ppaQiMAgBMB2JaQAAeyAA/vCtFTFbpUmc57K9Oxmm8aOZDTDMGDJK4NH2CGgAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "9bce5fabd6413892"
+  },
+  "bim/material-takeoff": {
+    "width": 1227,
+    "height": 834,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1227
+    ],
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoYABAAPu1kqU4ppaOiMAgBMB2JaUwAADc1z2KoAAD+7/LzdZFYC0xz5/8nBIj2tiSs6Gwk53H3CViQ5kjwAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "23ad7be201b2ff03"
+  },
+  "bim/navisworks": {
+    "width": 1920,
+    "height": 1080,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoYAA4APu1iqU2ppaQiMAgBMB2JZACdMoRwIr+AnHiLsC7COTBAAP3V76Wzs4m7/UqGW5r4+8+XEFXU+zOTfqx2HI1ofgJaNjjMQoRwRDa8m/unHOze4dITGtsPIDecsThXIrzhXHQu5ppIqzQAAA==",
+    "color": "rgb(184 216 248)",
+    "hash": "33a5a35177246b8f"
+  },
+  "buraydah-town-houses/cover-render": {
+    "width": 2739,
+    "height": 1567,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JQBYdg6fy8TeZBaVeGldzmXm2AAD+w/my8QdT1IBtuMGM0dJolh+GbJfCuI+B0dA9Nil8ppA7qP37ciN7u/SumnGlE3CddyJJxv04fyPFqz78EqSiKsAZMyVZ2Xen3rQTHis7uM/afPJw00/7O/5AAAA=",
+    "color": "rgb(184 200 216)",
+    "hash": "b542b4b84861f15d"
+  },
+  "buraydah-town-houses/first-3d": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoYABEAPu1kq0+ppSOiMBgIATAdiWkAAC51+Xn5T0hjtvzdAAD+83JfebhLA4u2vZZul9dFrzSmRd8+NlxFWBpqr/xZ9zA5tPutQAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "6f942a5c56889ad5"
+  },
+  "buraydah-town-houses/first-floor": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAwCdASoYABEAPu1ur1KppiQnqAgBMB2JaQAALnS2ENC7qujHaEtwAP7zbpFX2GeZ704g5iHvRRe1gAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "52b03dd94b16cdbb"
+  },
+  "buraydah-town-houses/ground-3d": {
+    "width": 3812,
+    "height": 2706,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQBACdASoYABEAPu1oq0+ppiOiMBgIATAdiWkAAC51+YeTSgRQg+GLd5QAAP7zcmF6WU9qw11GYnbzR/tscOcmWY4QSZ8ad8IQajHLAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "cbc965938fb3744c"
+  },
+  "buraydah-town-houses/section": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoYABEAPu1qrVEppaQiqAqpMB2JaQAAOodDR7l5tCxKAAD+8JQb74Ll+zjdNcxqtgP4VwsjaZUJtMC3bGBVqKUGAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "e49c11d3afb29f05"
+  },
+  "buraydah-town-houses/site-plan": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAwCdASoYABEAPu1qrVCppaQiqAqpMB2JaQAAOsBlfQegAP7wfNnTJsW0/HL9Sm331yzCuwiRuiu8y5+iGFyfSK+a+jaOAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "4f170df24dc3720c"
+  },
+  "buraydah-town-houses/stair": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoYABEAPu1wsFKppiSjqAgBMB2JaQAALtfwWOnFHWr/0F0QAP7x23kZdfrikoqEBkpda/AwSVuCQQooRTeeD/z1ZRezb04UaNPgLyLT7/XLwAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "40d295e1f5679dd4"
+  },
+  "buraydah-town-houses/zoning": {
+    "width": 3812,
+    "height": 2700,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoYABEAPu1qr1AppiSiqAqpMB2JZwDNSA3yiGbDki2Z/gUoOjozvGZWwAD+84LQhHzOORQC4pQk8Gw7EZjkWW13ZfuxQedgItrfd1ZRSrMUCq79Co9AAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "dd53a7ef7a9ff708"
+  },
+  "classical-facades/arched-entrance": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JZQAAXuH/5ioNeH6qlTpAAP5XfQNdzOJNkrq4JpR6x5sfVESqFxQazz4z3t4g0nFVjUu2tzM5xesSwPc9gzYykPUjALpzaBkY7rngIqvNhCyu3Yob3g6LAxyhPJSD9QQsBjZIS7QAAA==",
+    "color": "rgb(168 168 184)",
+    "hash": "4633ccbe987e4e51"
+  },
+  "classical-facades/cairo-building": {
+    "width": 3000,
+    "height": 2144,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABQBQCdASoYABEAPu1sqlEppaOiqAqpMB2JZwDJFazR/QX+APo6ra5Bszm1bgc1Q9jfl2AA/cMOEDy6R5ctM3QGqembUBaDuU7BwLeiHMOtnVxSlFoFfzt6u9efSxkreRQO5a3xnl4nzKlfGIChLscUwbi5FWKX1Hj3pm9HOtOY9068BfLWabB7iaRTI09ICb000ccCL79lhnG7VgS8qaN8N0R2RmZAeXR6O/ppIZRHDr1C2YwAqdQAAAA=",
+    "color": "rgb(232 232 232)",
+    "hash": "9ad0945138ea8601"
+  },
+  "classical-facades/corner-building": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoYABIAPu1sq1EppaOiqAqpMB2JYwC9WdwLhtLwUk3oSbf/gncOlTsr3LzV6eajzZ3wAP4uDcZ31WJtSW31k89Ocj1z56dvCT1RSujj6Hr9IfYboCzqeEVosFlptXKiD54yRAfOuh2EBXr8eGGh1Lw7TLwdHibJHr+ztVR+y5vXkhlCVw0vM9ugtLTGu0x5IGfr93rm8VNBuny/c68kijARchA72eSrsBQcmpaggMV3xMHng20IUbuXXnCX2jvgrdbK7hmAAAA=",
+    "color": "rgb(200 200 200)",
+    "hash": "0f15d5354d1288a3"
+  },
+  "classical-facades/facade-model": {
+    "width": 3822,
+    "height": 4200,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBQCdASoYABoAPuVepE2pJSMiMAwBIByJaQAAW+y807AFP9pUxFvk13xHIu79poWAAP7zcnsE8wUO2e2MlGIgMwC+rkE29iQHgs8lEM2NJAOzQ+5vQ6aMmR/mHzhbZREjwB0Vy9SGDu89f+p/6hlo/bfVI50Q3tA0K88DjCaxiCU+AAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "737c361145b8d9b5"
+  },
+  "classical-facades/shop-drawing-sheet": {
+    "width": 4200,
+    "height": 2698,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZwAAWqGyXBN97gJ4wAAA/teHGatfSJmubo688CRJp7siaAGmkfuiF9NuHXpWJa94LyaM1ytMsS4H4UFcCXZM8pF9EWpAC0+AAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "692285af55912e89"
+  },
+  "classical-facades/street-view": {
+    "width": 2500,
+    "height": 2500,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAABQBQCdASoYABgAPu1sqlGppaOiqAqpMB2JYwDKtYyecTALNRiniLt0xf12JeAQNh41dPAA/rWYIfTNOfUdGKhMnx/TkSRnfr8rF75R196vVZat9hOeAOIyTr3Gszk22QrwsgAT9NVCIypvzqAeltigLWTjnphMuY7+mjnfCQphtIy8n+NNe3S3CC7iPvKhFPhgu4r/31EJxGj3e1HropuLaDC9gJjBqNh6d1qMQp7x2yH4fALqWIbELh1mLzeGkvUy4fkmsVSL1G0qkEKQ2ZE8E/MBdhGlFRHxN+eOsx/VTvf13NRar729EN6kAq1nCPIsdVSAAAA=",
+    "color": "rgb(216 216 216)",
+    "hash": "463a0409a6aff650"
+  },
+  "commercial-interiors/boutique": {
+    "width": 1080,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1080
+    ],
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBACdASoYABQAPu1sq1EppaOiqAqpMB2JZQC/7AlqobvvKsF2OpoRrlpvY+uAAPqMbGSCLoa/+2MQcbbFCnSoeeL8U2mW/bFU4tKYVt4CwHfFrWhTxfdGPa+1S2zSMNdNd0JGZOt3viLpk5HbebF6YGjZJsuuN7eQ9xNvx7F9IFcPHOGB+qPQihkULCPySzLqNyfclwAAAA==",
+    "color": "rgb(136 120 104)",
+    "hash": "eb0344b8daa15313"
+  },
+  "commercial-interiors/cafe": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBQCdASoYABIAPu1ur1IppiQiqAgBMB2JYwC7M5H73BxydyM+rJyN0U0HEDu2RLPJ3h4AAPzf17DSqEV+iTwukU0R/GYX6HvSnz+zfq/9wnKoEfqEoCdEHEcvTwHVfgEEWyXAN1ALbHc+A0tHEn7O7scrcOb4G86xg9GdOe+pMbb/xQ+I9sWrrfYql0iq8F/87Zmd31cS6Il7vrWGW/NvCjRhBzkbSzTSbmSCIs7Y8AAA",
+    "color": "rgb(200 200 200)",
+    "hash": "ea04fb7ae8f3e1b9"
+  },
+  "commercial-interiors/meeting-room": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBQCdASoYABIAPu1ur1KppiQiqAgBMB2JZQDI1A+4w7GOCMkWreyXf/6JyQ8WOvQAAPx3d3uQR8uQHV0wbFt5ak0T33pBu3+2ZRSFGSKLDyiJpSyq0t9QTPuSwWSMUmHneCLIO8d65RnEUsbkkFObc3uiOX1RR4MO9+9aHpV+kDZdMUO4yBgWCsxkK4AsmFRjwZ22DVBzBLhRfHmvWqjudB4nN3NbkOiJPoAA",
+    "color": "rgb(184 184 184)",
+    "hash": "17946924deece0a8"
+  },
+  "commercial-interiors/reception": {
+    "width": 2000,
+    "height": 1500,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2000
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBACdASoYABIAPu1srFEppaQiqAqpMB2JZwDLLAtvPqBlzdeM92s8FxUMAAD9gbmdgiXkmePiGQcyVs1SJl5FdVN3j0ImttXAqvbvzdGsRoCLJwtF9F+szr5jLDaDgb6g+sKZx+BkSyGWM75qWLKOpK4KWNYlyc6m64nLX+245tsKvo4AAA==",
+    "color": "rgb(184 168 152)",
+    "hash": "a44b4434461e4c8d"
+  },
+  "commercial-interiors/sales-office": {
+    "width": 2000,
+    "height": 1500,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2000
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACQBACdASoYABIAPu1qrVEppaQiqAqpMB2JZwDGRagAoxkgIQMhgAhZulmMYiQA0ahN+voXsOXuBIIPNzpVkl50fnt/r+mdFhYyJ6iMUSE9Qrtl0/HyUDvgo4eCjsVdSjPoB7IvX9G7PI4eKbx8M2r0/Mhx51Z9C7+V5VBiiEn9INOAAAA=",
+    "color": "rgb(152 136 120)",
+    "hash": "8875007caded637e"
+  },
+  "commercial-promenade/aerial-2": {
+    "width": 3200,
+    "height": 2794,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAAAwBQCdASoYABUAPu1ur1IppiQiqAgBMB2JYwC7AYyyJzwOM0rnZ+WsPs7Qgp8mFynyoAD7Gfwa+pCzgeB4g0ZGDu9+yUIcYBoq3/Ne/NPdNZ2C6K4SX94fudDiiG6kWuzNdMIEsLMT/XwhEo24NXZ/dg6JC3wRsWpc97OdR4kDBf9NZNXnFaQfCCCRsExuQCy+wzZqyhCL1whNgF/8HuE8c15MBbnuPhC5kdRld4miEMF3onLGB6t2sOsD7qlaxSj1Gy19+7uWAAAA",
+    "color": "rgb(120 136 152)",
+    "hash": "bcf18a16ee80fef2"
+  },
+  "commercial-promenade/aerial": {
+    "width": 3200,
+    "height": 2846,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAQBgCdASoYABUAPu1ur1IppiQiqAgBMB2JYwC+TJSW5y4aDQvKL5OpEzMN4WBqO8azz3j8fS2oVwAA97Mf8P3m/yHYQ4Rd0VE7+MvKLBPMIgK/gvesEQC6EFF8uSafMrhuFr/4YXjM4RjmyI3Fkz0BRsvGKOCcMYzOo696/sF3RXA695cBs7DmkDn4claKjg1zwzube63x60hk998XIItCD6ebIF72urITD2Quo/1msyCFp+gR4xSmTuIm91ivTl7u0PktAIh2nQX5BA7+CkLjSZJP8YZ5tiqJwAAA",
+    "color": "rgb(136 136 152)",
+    "hash": "31150259485e5353"
+  },
+  "commercial-promenade/glass-facade": {
+    "width": 3200,
+    "height": 2347,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoYABIAPu1wr1KppiQiqAgBMB2JYwC7ABEcHXkMrODti4S6LiLq6IdAIYAA/tNUXqHmWAVcx+OI4GPNFqzjTsxi99BzEpdlmmaZihUK+XLlLZlbxGlyTvR66FnoNBL8G99Dl2M6/zIG8Ou45yYi7QAA3ttlUYUunS9RJaaJa4k0aoE2wd0TE5werlZZbHVPO8dZ3VW/5QKDSnZ+ELhMPvZA4CC2E0hy1RIQAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "584cdef16a3c6607"
+  },
+  "commercial-promenade/kiosk": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACQBQCdASoYABIAPu1irE+ppSQiMBgIATAdiWUAt9kzQYG7BFj7YNgoM6SfKBUH//2ViyffEAD+83RKwewTU/JkT1mEA45nIKfso71Ns5f66BKK4IKuCLoX0dSCFsC8M2i6BfoSTAGBaXXyvGeuuBgdbwY2NwA6hdKIMuPZcBx3dPdMJSEnXM7IU95FpwRhlRW1moVs8NPKZnZrc4HAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "dc90fa5a671a1068"
+  },
+  "commercial-promenade/plaza": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBQCdASoYABIAPu1qrFEppaQiqAqpMB2JYwCdMw6Bqd+kG+3W1ZBbtaAf7zGlwP0UAP7nNOPxrucLrp+LSA8+m807IJdq90ZeDWxh05r/lxbbUwY9Oh7y67jd4eDbA07uNhjavsPE7Zb70gp3yajjGK6xtDQC59OV2WnEgLn0CLCypf/74DCG4QxUGAGkxZtkmaDS0I+fJMxOqmZBvOGqAAA=",
+    "color": "rgb(200 216 232)",
+    "hash": "089bee12bc5682f5"
+  },
+  "contemporary-residential/compound-unit": {
+    "width": 2000,
+    "height": 1125,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2000
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoYAA0APu1iqU2ppaQiMAgBMB2JYgCdIIjBOaDV+zWwRcAA99rtxabxvfw2nmhz8qES0ZM0nfyHCFar8C1Ti6kHw3O4BkkZsDxLTB2pDrI3UidLPxNKdYAw7AFhb49L2KcC6LIn4hMoHR5HxfwkExqnnYWelqEeukI0SoY50FAAAA==",
+    "color": "rgb(104 152 200)",
+    "hash": "0fd9b87672979fd3"
+  },
+  "contemporary-residential/mixed-use": {
+    "width": 3000,
+    "height": 2144,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAABQBQCdASoYABEAPu1srFEppaQiqAqpMB2JZQDAKYxOaOrZk8qq/U9UZVxhe8+sxeUnfAAA/om43wFXPD4DD1Tst315xZlgPvtbyrrpehpIpXL5T+AQsJ/c8Sc4QXaK3U2oWzjgOjVpS36WlB4P2HbskRiv7/aBQmbnZZOBiDb2KbGRMRLQ6UA/lzzHUTLbEmUAETVmQ+54KuK6LeYYffOrX194HNUQ1e/rNF/vuYH1MFqP2wIo3YpzzGLVmpNDgQAAAA==",
+    "color": "rgb(184 216 248)",
+    "hash": "3934422ee64689b4"
+  },
+  "contemporary-residential/villa-108-front": {
+    "width": 3000,
+    "height": 2250,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JZQDHMywToAVqtPud2wwd+eKDHZLM79TND+BFwAD5bVCepJeN4cv/CnUWQloSN/pfDexw/xSv3Cn2P7xK9+vog5Ap5cFh7fbxIwVD0bB/wenwPPSyt0vVvXa4bhA+yzrjdzvztMDVa2WekmaT7rqwi+FG9V2eG5a8Poy/F5UGKybrABFIAA==",
+    "color": "rgb(200 184 184)",
+    "hash": "5bd5fdda18ae61b1"
+  },
+  "contemporary-residential/villa-108": {
+    "width": 3000,
+    "height": 2250,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAAAQBQCdASoYABIAPu1sqlEppaOiqAqpMB2JQBkiAcqzNw2pUM+Hhfj3LTzP2vwt4CGqAPui3jiZbzNVlXSGLskd+kI+CfKdZBxuqX85DIvSz1rrK7BqZwPDqNuenH8E1aFgaV40SXrsVSZig11WebofXy+MD7KwjjmeokCWUuHuG8YVcieodq08DTmn2czbaWpjD2C3SAu3gmwha2vwHH1MVkGCEIS5sqfhyDqzLYQ6A9IA",
+    "color": "rgb(200 184 184)",
+    "hash": "b9a90c6c65f8b0cf"
+  },
+  "corner-villa/cutaway-garden": {
+    "width": 4200,
+    "height": 2026,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoYAAwAPu1oqk6ppiQiMAgBMB2JaQAAXBur7QzccU/ncXQAAP7zdHr+KuSOnXsX1g+gA9z1aAIdeTT7O8fk2vTLFvdOVx2FRNfPdO0TYhg+PuUGAGLFplBMoO2i6GkYAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "9804fa16cd468766"
+  },
+  "corner-villa/cutaway": {
+    "width": 4200,
+    "height": 2233,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JaQAAXKPYGx6X//0D754AAP7yK66Th13cHFvjTIFFzgGk4+cJj7sqOE5At0I6Aas4G9Jq2cQOp8gMOJhxEcOqeZx4I12IdhDw1S7myT8O+lnl0glIAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "953b197d9fdfb20f"
+  },
+  "corner-villa/elevation-front": {
+    "width": 4200,
+    "height": 1316,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoYAAcAPu1yrU+pp6QiMAgBMB2JZwAAWp/E81N+Kb4P7gAA/vN1ME32gQTldF3Niay2uEh4lNj3cUsynyBggzBC+becIAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "aebcc09c4427dc49"
+  },
+  "corner-villa/elevation-rear": {
+    "width": 4200,
+    "height": 1342,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAwCdASoYAAgAPu1iqU2ppaOiMAgBMB2JaQAAetHJapgAAP7wfsLv87F72but7OngNjNswtE9M0LhFftLgZxv6sOGLadbOwbzhAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "a33a40ef1902d016"
+  },
+  "corner-villa/exploded": {
+    "width": 2610,
+    "height": 4200,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      2610
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAQBgCdASoYACcAPu1sqlAppiOiqqoBMB2JaQAOkwKCz8wv9zT8/tnL9r/RjYRZ7tOwhc5YEVAmS4AA/vN0/sOMwdTGmI7GWAuShJpsRC50UfgxgKwqkIXTMmMMp0GjbkIMR4q/kMIqkXulqPqhluT+vj0TBgDXe37KqKV7Xbc9ZFFjoxqZirseAylPjHLcvuUaJiS2njYXQnYNaLfF9uskwreYgAAAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "a75ecf57b821435e"
+  },
+  "corner-villa/model": {
+    "width": 2377,
+    "height": 1534,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2377
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoYAA8APu1iqk4ppaQiMAgBMB2JaQAAW/DqgGnhzOIAAP7zfmLbWPOAyeA1N0RPE/D/FqN40vNNZ/b8IXpB92d4a2ynd1MmGBYaQzngF5SAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "54291c53d2ad17de"
+  },
+  "corner-villa/plan-first": {
+    "width": 3103,
+    "height": 1983,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3103
+    ],
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAgCdASoYAA8APu1mqk4ppaOiMAgBMB2JaQAAeyAA/vCXeOblTgxDJzrv4va+qmDLoruLpfgGm9uzKXnbUmVPDcS2QtqbMUAAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "30e4551d3279a60b"
+  },
+  "corner-villa/plan-ground": {
+    "width": 3071,
+    "height": 2082,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3071
+    ],
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JZwDMHCHgT4wXucij7f1iCgAA/vN1LKSY7z1yNOEFn3cqH1c1mZd1G4x7i3yvmkehJy1jODkPtrQzn1OGjaoMQlMMOAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "92fa2a100c3e97a6"
+  },
+  "corner-villa/plan-upper": {
+    "width": 1588,
+    "height": 1044,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1588
+    ],
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoYABAAPu1mqk2ppaQiMAgBMB2JaQAAetSewmQWYAD+8GlXz263oykVxVYPjzWKLUFxkMelJfIOkXCCzKVH37kJVYRqB9F+NoogAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "170c0876f8f0d579"
+  },
+  "corner-villa/section-2": {
+    "width": 3189,
+    "height": 988,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3189
+    ],
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAwAwCdASoYAAcAPu1mqk4ppaOiMAgBMB2JZwAAesEt/1HAAP7wNJNwaxFcwFIzWOBarBSGnh+DfAajU9m/mgAA",
+    "color": "rgb(248 248 248)",
+    "hash": "dfc003810acc9443"
+  },
+  "corner-villa/section": {
+    "width": 4200,
+    "height": 2056,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoYAAwAPu1iqU2ppaOiMAgBMB2JZwAAW+i708N0AAD+8dCRo1CUndw0EiMhX3c5ciMeVxcC19UaXz9d62f4yJAAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "5aa90ff731dca656"
+  },
+  "courtyard/garden-court": {
+    "width": 2667,
+    "height": 2000,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoYABIAPu1sq1EppaOiqAqpMB2JYwDA3A+40+978SpbSPtHkgUJ6wOxKxAA+SsLShRmD+ARdNtjJPeSvVwdcGGI4694d8bpCKVP0KMMSs3/7KbsX9RFZlAiHmT9Fr78mijK8tSZMIURNbz6gqeV3VsJjjULtmYvdtoEEnLKfPrtVINkQzicWDNid/PxJrIOH57HcjR38j8e9B6IWPfgf283RpfutjifuRgAAA==",
+    "color": "rgb(200 200 200)",
+    "hash": "8569929e2865fb7c"
+  },
+  "courtyard/water-court": {
+    "width": 2667,
+    "height": 2000,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABwBQCdASoYABIAPu1sq1EppaOiqAqpMB2JZwC90A+DV/bQEKGYnSK7Pmve47xcsFAsA8AAAP7jhKZT4NDxRa9xFlyc2kBakAysi/3SEDIsmxxiVCno4Mf3Ouv6gJiAbEKjdsMXw2uX1q3La+QL2qR5cmnNuIvA2P0h9C9jtzHt30DbVUZaGgVc1npYNyy4EwmxB4KNd9OCNXhvfV5t5HzAAAA=",
+    "color": "rgb(24 24 8)",
+    "hash": "858ef27902b4d2c7"
+  },
+  "estraha/garden": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBACdASoYAA4APu1iqU2ppaQiMAgBMB2JZwDCgCIgpwazEmq/AOz3AAD808iGRwVXap/MGIE94J0Lt6M6YPOTqzuw12je6MFxAUvZErupQWEW1b06R/C3g94rlmJ+XQxMm/5C6/cD2AjjgC0u7U/H/d/1pE2syrBu/a8mvvaYi31/5XpDxoiRA9b6NWlGz1j7oHPVsSnOdOFmAAA=",
+    "color": "rgb(8 8 8)",
+    "hash": "a76182da663a6d63"
+  },
+  "estraha/lounge": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JaQAAUnA0gODNbUr1g0gAAP7O2fdJdukhX4ZiJ4V3nPiW6t/xUfF/U6g15G+EaxFHaV08lZKBhAXiKPNaGQ/OP3V/userPwKr1O8FGoHf8vvVbYGQ51/3TCK3FgTFse5+NWAzI/ZmoN74wUXWLmcAUAA=",
+    "color": "rgb(184 184 184)",
+    "hash": "09168da1c633a798"
+  },
+  "estraha/pool-lounge": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZQDGfYuGu6VAnlkACXbazbJYAP5PAdVjo/0uJPdakFNJn084E1pNgcqoMbta8SjJ7HeEvatP4l1/Mn52waGnuiz0u6pbmtPVRJ3MeEgOx9EKt99vx7L/B2s2AwUc08ljDGl3Ysuz+6SMqWo+S3v4ScP78Yqb2viy11D2tQ2zR02K+PIE7tJ7tPt8M8+DyVEmGgAA",
+    "color": "rgb(8 8 8)",
+    "hash": "2870f24389dbf965"
+  },
+  "estraha/pool-terrace": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JYwDHBf/gQCaiiolTDkj2P0ZEOYnRQAD+0klUatvE/83mqx+vAdpgYEEpqVyUTMAuAhj4Zdzvd5HFH1a25Ni1i9q7ZxJcbwM8IOXQC63mT/KcUpfFdb5x+NKb1fGqftJeQ86WAo/tpkLzyvgC3o6TJmrbw0bugE1Wn4JEj57FnvklRbT+ZQ5j23zmXI9Og9nX/Gno3eqStg5npIAAAA==",
+    "color": "rgb(8 8 8)",
+    "hash": "a07d8fd2451820f3"
+  },
+  "estraha/pool-trees": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZQC/OYyy1bXCtDeRdIyvYgX9k/IAAP7ASWP0y6Cpc9TAImisaViYMUNBWM49vv04gL8hoTRf3wTb6DQ8T9NWQiwPvHvu2YQkQFBhZEqKmhWxeZ3fYmEODJDN6xPQi6vSqcmToIwThT7j1uZixryzbIKAcsAaQawC3oAA",
+    "color": "rgb(8 8 8)",
+    "hash": "4bf92c9d4532c008"
+  },
+  "estraha/water-spout": {
+    "width": 3000,
+    "height": 1688,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JZwAD5RIQEWQAyyLTaS2gAPxm2sU/osw41O09Pt1RVXhpFGxkQ+qGyZuhbOsC36B7fjbfeMwYImicf/eSIgbFwXuCr6ispSS/SDT0TQPs/g+wmWDX4vQzmPDnWKOdAE52Pzg7bYDGh/wlnbCAAA==",
+    "color": "rgb(232 232 232)",
+    "hash": "00fcb584c9ebd189"
+  },
+  "kaitech-diploma/clash-columns": {
+    "width": 999,
+    "height": 494,
+    "kind": "drawing",
+    "widths": [
+      800,
+      999
+    ],
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoYAAwAPu1iqU2ppaOiMAgBMB2JQAALi3CDTGOwa0qH7UAA/uiSGp6Y1aMcWZUcPTKFHYragq8xqTQ+oIfq9mKqggs/CyvuP7GTcusHQ8CbVXHdlGIEyMrz2GPq8cm8kvbvHzpBJoDQAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "ad01807f3a01c560"
+  },
+  "kaitech-diploma/clash-curtain-wall": {
+    "width": 999,
+    "height": 509,
+    "kind": "drawing",
+    "widths": [
+      800,
+      999
+    ],
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYAAwAPu1iqU2ppaQiMAgBMB2JaACsACKRRfZ5sexEGPVPkkWAAP7h4ivoYaSA329rX57vFeTH0ndiUe+7rAbvRy6iOR9fDCzcavgSSml3/QlW/uB9BovWlFNFnNul6d7jIecrAI56/wyEdg3tSCnCBFu1LuiXXe1J2/YmUxXea/+85E1FAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "e0d7721dddf1bf9e"
+  },
+  "kaitech-diploma/clash-sprinklers": {
+    "width": 999,
+    "height": 508,
+    "kind": "drawing",
+    "widths": [
+      800,
+      999
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBACdASoYAAwAPu1iqk2ppaQiMAgBMB2JZQC2yYwc3nR09WMkWpjFoTyAAP7uWHo+8Zch1Wws/h5SX55AZSOJsG6MJ9Gfv0Sz+dtEa1KW1J2D9xvq3xEg5IapilS4EB7dIHhZvnRDGPHVr9/TPV5AVMhRn0utFYl7vBzV2n0FTMNmNdy8ZvaUz09QXhGhPf6kWsK85jI3CAnFBXQAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "8852ef0bfb515829"
+  },
+  "kaitech-diploma/daylight": {
+    "width": 1200,
+    "height": 718,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoYAA4APu1kqU2ppaOiMAgBMB2JQBOgBDtKZCZHrveQAAD+yS7NZzAo3jii/Vs+5rFWNHZFEQrTwA8DWd7Gu/s5QnrrZZUCBy8VL3WpsWButA/kHviILBJ6AHIuNGIPEsCru7HwT9x6E0DrXPF348gXNXk2z4tQLeNDBSIAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "0f2a07dc77adc995"
+  },
+  "kaitech-diploma/embodied-carbon": {
+    "width": 1200,
+    "height": 718,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZACdIE3J/l2AMk+gxTTfUr4GbFtuAAD+yVshTe9leBCVrv8zw/pQSMhFYT9vu6CUeF/Z2E+cFEh6PwdDe8buK9jRcUT47gSlP2KLUNXTra1ag9ehjtwUZ5k7KvlaAnudfPESpRwfKSTQKZ7SdAtWzMQhDyPVS6r34mZX6owAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "22632bda62a473e8"
+  },
+  "kaitech-diploma/shadow": {
+    "width": 1200,
+    "height": 718,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQBACdASoYAA4APu1kqU2ppaOiMAgBMB2JYwCdH8G6A5/8B5olw+sa5B62IYAA/tXsZpWOmHOHW2HxOjt98LwsSPsVPG8KFHN1jlRjuhr13Sen3HsaVwUC/TihUx5v5gbm8slWFOeK62QbGJOtX1cAGNjO9WsOQl/Ul+AA",
+    "color": "rgb(248 248 248)",
+    "hash": "9de1c95f7056da7d"
+  },
+  "kaitech-diploma/solar": {
+    "width": 1200,
+    "height": 718,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JaACdIKnDBnd4k5VB1Eo+AAD+yW6TDhYL5moqws8Uw9q83zyrpH73nrLsnxyVdTlzzNvz/pIkkoIK1zX3o7oVayqjgHxMIVbYqFJYXj448qKndsQl84I7R8OI7VSBbVzFo8MP8QsAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "f3aa9de1c98f323d"
+  },
+  "lamar-business-park/corner": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACwBACdASoYABIAPu1kq06ppaOiKA1RMB2JZwDE2A6y8VIf/w0aQ7YVjip97wPwAPVWxQVL4DQOgBWujcOrUedGFhB9Izjay1N16c+5L3Rh5J2JGUbQRaWEsW6ZTqXlBMN5UT/YdjeqO85vayRQZrAKfxEQEKlVTPxzXRkhPgno2AK61C5oNJIRvTLCF/cAAAA=",
+    "color": "rgb(152 152 152)",
+    "hash": "4682d20cd1e80b1d"
+  },
+  "lamar-business-park/frontage": {
+    "width": 3200,
+    "height": 2067,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZQDImCLeb3kaBvNfq4oAAPlhQPqXf02CQqNl9JP6gqFh8PjUkMcwSd63z6lMYzk083PoCil7W3IoHqyatxh86wI43qXegJu/GgTxwY7OFbOgpAhRUb8eyJMpOaXldKHkvIBiAjkV5OAAg87t/XIP80albhVBiWens3AAh1b7Z5/2MbYBZcAA",
+    "color": "rgb(184 184 184)",
+    "hash": "e6504f093936a065"
+  },
+  "lamar-business-park/full-frontage": {
+    "width": 3200,
+    "height": 1427,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoYAAsAPu1kqU2ppaOiMAgBMB2JZQC1CKnDA+h0JBFgApgAAP6xAXcyENTgVMtLuKDx9Tr7Kk5QH0Hlr1N8b53qPp53mZTv7Yom6n0GDOT0bjs/dx2+IbwPYAlRpCIeq8cpj3nTlxcpnPqIL0O3/mgA",
+    "color": "rgb(184 184 200)",
+    "hash": "59c7a2eb20d39ac4"
+  },
+  "lamar-business-park/street-angle": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAACQBACdASoYABIAPu1qsFAppiSiqAqpMB2JZQDA3BELPFK7Xsupp6ORqjslIDAA/tQhKKiZXSeiktN3UiKSa8sXs9YJGWgN4yBGzKbWdSLFlYwHXkd5Apq22+vkakNOY/1LmqMbja0jF1tv/Lr/XxmGm5ilI7YdZqaweWlZwS7nW3cIm0Jd2ut23Z9BOWhFZQ/0XAoe6KfgkS9Ayn4yuOWf9Fs+rI+PYhGJLQgA",
+    "color": "rgb(184 184 184)",
+    "hash": "874f75380a2a80cc"
+  },
+  "lamar-business-park/street-wide": {
+    "width": 3200,
+    "height": 1702,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoYAA0APu1iqU2ppaQiMAgBMB2JYwBU4AcM3rqWU0es0Cypt6QA/uqW/C++zbTGh3Q/K0l9gIM9nBgMoUxSKWpfbP4Hk5jQvnstQI/usJZEf4VEAxAQhXHuUlVT47FJP3Ah4geOME46qFx/LtbeQZc7D9icRUfyCC6ASqetwwpET7GLt7YAAA==",
+    "color": "rgb(152 184 216)",
+    "hash": "3ef82f7c3b3d6c05"
+  },
+  "m3mar-villa/day": {
+    "width": 3200,
+    "height": 1800,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQAwCdASoYAA0APu1iqU2ppaQiMAgBMB2JQBOgBHtd984hpi4acOgA/lYATmEn9k2xU2mkMWus55wE91oWSUG+Y1m/averfgorp0YKslF95unYeeIN/gw3FEsVKxuYY1+ADmcnBBPIHRydtyPFRPdqSXvQZ28QtDo0usmUnvEcE5h+QNSZh3hYjXN4Uu8njd9DrgAAAAA=",
+    "color": "rgb(8 8 8)",
+    "hash": "93d1df89b90f8297"
+  },
+  "m3mar-villa/night": {
+    "width": 3200,
+    "height": 1800,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JbACdACPRsJjbyZ2+3EdAAPfdaqz5kHaGKRspm3RAHR0KzQTv/pYsWPfHktI3gWV1eHQ91dqGqN4Sx41wSQyDVxqxKj6tD9fZ3IeWp3wZClRGfI47+LXSRwJrBPdjskqrPn/XHCY7TfbfZ9hzU3gX3jVAAA==",
+    "color": "rgb(8 8 8)",
+    "hash": "d9e7bb4781aaba3f"
+  },
+  "majlis/majlis": {
+    "width": 2500,
+    "height": 2083,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBQCdASoYABQAPu1urlKppiQiqAgBMB2JZwAFEAGF/sM1pDyo+EGNj1id8jEFqTNmRAD+yeXFGj+SQZHAknjtvaC1aPwS/bpPsP5Kr3AHDrkmxG86+9XYiBGMJdiiRkdQAuMPn22JMQcmI/k+4rsHLQjgfZbNw4DUYaN3xWVXb9wz/nM4r35Q0ZrEfzZIhNHOJiKN2ZE9pVjDkyBAAA==",
+    "color": "rgb(216 200 184)",
+    "hash": "a5c0e45308ff359e"
+  },
+  "mall-new-damietta/night-2": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JZQCnFBIvtQHhfqPYiKiBH8ysl4jpkKpgAP3th9ab5g411pqLrFV5h0ZXDNDYWlMQIFygmPqdz9IIxGCZgzsL2JtjFiI0ILrS028l5y/2RvI6uMRMqqWnov63ncXAqlco6L7hQfhS/2ckNJfkKgDsPZ+UBLLepjHhCvhnSUi2oHuz4NMRlTEBluwAAA==",
+    "color": "rgb(184 200 216)",
+    "hash": "762dbd330871a87f"
+  },
+  "mall-new-damietta/night": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwBACdASoYABIAPu1oqk+ppiOiKA1RMB2JZwDLpBEcx3KDKlm1kgQSuAAA/vC8rG3BrwYuMDVM48HzNcEjyyLCk84zMYttL7Ry/DeFo95tG+0jFHsAAA==",
+    "color": "rgb(24 24 40)",
+    "hash": "81b9be9247b1b54d"
+  },
+  "master-plan-egypt/aerial": {
+    "width": 1920,
+    "height": 1080,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JYwCdAywBVb704kXEE8Y9QAD+0PolBJs8SKjmApn7xQ6CygrYR6NDVL82cF58UAHZf9Xr5fXpfnzFjjZTGlSXcowrfNIart4kM7fW7f7BmsRkuI/QlsmEYnGfPqi2s4uR9hYYYKTsCVvsDLHHsg6DM+UCwovyGnT/CDyAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "2bfff58f4d523f85"
+  },
+  "meydan-villa/garden-sections-2": {
+    "width": 4200,
+    "height": 2795,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoYABAAPu1kq04ppaQiMAgBMB2JaQAAW+upPsY2ImOxAAD+82v5wSheF0AoF18C/v00cTs9tD9xzuU0+T2onOD9jCAFkAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "bfb2b16183a41344"
+  },
+  "meydan-villa/garden-sections": {
+    "width": 4200,
+    "height": 2976,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoYABEAPu1or1AppaQiqAqpMB2JaQAAOocEG5mVAAD+8Jd8+jYZ0fbIFLtOwpW5jcTSsNJF4dpWNwDsbJZu4kkoDh/5LECVwrSoAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "076744dbb5c27bc4"
+  },
+  "meydan-villa/pool-details": {
+    "width": 4200,
+    "height": 2976,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3600
+    ],
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYABEAPu1irVAppSQisBgIATAdiWkAAC51jkyonQ4Z1TuAAP7x51NyKs6QwJxosNiN4yd+PQGcX1nu8V4iRM4lfNPKNgD62YGvCbZUAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "3627bbd98e9c31fc"
+  },
+  "moroccan-living/bedroom": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBQCdASoYABIAPu1cq02ppKQiMBgMATAdiWcAx+QMZaQwAT8ZQFqiiBBqV8Mm1LwAAP7n/2qZZ5XJCNttuHkDRlY2E8ZcoIddtCTtWC495vMUMk8QhvIp/tFRnh0FbK2fBZIaHJzu/STzfFIdCI8XAx5CNBke86oisH5QqpPlHaH/qQ3g+xPcAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "5ade185e02e151b9"
+  },
+  "moroccan-living/living-2": {
+    "width": 1920,
+    "height": 1599,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBQCdASoYABQAPu1crE2ppKSiMBgMATAdiWcAxkAKoSJP1+/2MmxIThJVLIVlorWAAP7hnpBuUkkh8K7TOSdUXEGFFEzZp5GF0QWOxKXvCmZKwEdtoBXvfam2On1AZIDv/DL+d62J9HSX7WdatqUX6DFdwdYFS1MRBoM3tAMilaqQp6RwYA6WzgA=",
+    "color": "rgb(248 248 248)",
+    "hash": "ad35b9ae0b85d57b"
+  },
+  "moroccan-living/living": {
+    "width": 1920,
+    "height": 1599,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwBACdASoYABQAPu1sq1EppaOiqAqpMB2JZwDHMBDTPiquJYsk1DW89bPKJuhBhMAA/tURBVeumnfwtsTS7GMKhRNSUexyzOGYp7F6ewsUWYKjYBPSVy0P5nW6KJHsT2q/pkIpIrjQXxPErKKkNDRpAFI36F2BATMlKNg4WnMxYTUwZ+4SaMnSQoAD23+TjGGfnoD8G6u25JPfSGnxebgAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "0cccaccdd4ae389b"
+  },
+  "moroccan-living/tv-wall": {
+    "width": 1920,
+    "height": 1599,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwBACdASoYABQAPu1qq1EppaOiqAqpMB2JZwC7ABBKYbQPGyfhX0GjECtPtOT8IgAA/byJfgKk9zAw8ll3vItaljGub7Ie9Yr4VmJuUBk0DS6WlNl/jnuy5obRWi959f/8KIzTy/D5tPJ0LC63E2MgKLnyW1bSY6kopsU4y/5puednDQEYC+JvUG0Cs8qpDvxsrYAA",
+    "color": "rgb(200 200 184)",
+    "hash": "2e7a71af08262d14"
+  },
+  "profile/portrait": {
+    "width": 640,
+    "height": 640,
+    "kind": "photo",
+    "widths": [
+      480,
+      640
+    ],
+    "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAAAwBQCdASoYABgAPu1urlKppiQiqAgBMB2JaQAALdgjWRPxIdKEiox1+KnK30dvxJkPQAD+31gZLpc+KIMlx/ARNPV+1FG6DvGRMceErpvtKLbi0Lfm9vF9+X8VAODmaB3uffEf8YkivaHhS2dCszgU9xFCQeJruZ+bpL5eQeqC5S/ZL/nsmM6mtdr4W/oiyaxp8f0BCehbXl3HM9iVfQbeMitJh0kp1PbQxPI3PQQep4mAAAA=",
+    "color": "rgb(216 216 216)",
+    "hash": "67ef64079b318e3d"
+  },
+  "qatar-classical-villa/angle": {
+    "width": 1920,
+    "height": 1080,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwCo9Bwu27Fdk7vs8HdQAP6NN+ky9SgCmozikKwJJlIHs8VHqF3N/+vRKZ4Uo6zZOjDsh/941j9Rjztu3kCK5NOOP99VFn14AEcUATPKVTKtU3j10jZ6KAA=",
+    "color": "rgb(168 184 216)",
+    "hash": "d9676d9f19378445"
+  },
+  "qatar-classical-villa/front": {
+    "width": 1920,
+    "height": 1080,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JQBibtQAvqwkCPYZUbcrmdcAA/o0esHlp2yfG4a4107PvHwbkhucpZ4uMGmNaAOeoHj2mpNXohAr1WBoEzExJJgWKMLH7pYClk+obKnSNNZZ1zeFUBvBGGyoWvzfdGAA=",
+    "color": "rgb(168 168 184)",
+    "hash": "c0265d5311d999e3"
+  },
+  "qatar-classical-villa/street": {
+    "width": 1920,
+    "height": 1080,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwC+SCHv2R/YWcgxX4uAAP5WWzt5/cypFISYpfQKxNpdLPjRYASbD1arpKdklhk5uyaPnnADPFsNANunNAvxje702mhKZ4AvCRntFZCf9Zm/pOhoUfbeRpQf2fW/gAA=",
+    "color": "rgb(168 168 184)",
+    "hash": "53c276b6f1688e2c"
+  },
+  "qatar-contemporary-villas/street": {
+    "width": 2752,
+    "height": 1536,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JQBYdgqtphW6X/0DgQAD9nNhMKcDnWXBsfuWmqZBxMr6dbdoWg/tRQGfH88+zyHRRldXF0nj4qFi8/bbe6WNQtbUC+Pp2fpKhp70h0V1/5jHNaO/eIwumxKXEPhg1kmEnfXoLDtheCviTg3394MCZCzMywuKDIxgAAA==",
+    "color": "rgb(8 8 8)",
+    "hash": "00b02f595cc80121"
+  },
+  "residential-interiors/bedroom-mirror": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBQCdASoYABIAPu1qrFEppaQiqAqpMB2JZwDCgBIn2A3PUdtoxWWGTMBkkbpdk8KAAOJ/KGvjFRmtNp5zsNznZ/qpd3QVexERw6XAqjLw2TOoU0HcQFrIaPOG+rFYDPGIAXm2G/L157EP4ZEfv5jOQenOEem3nFU4foiIoAXey3+IMCB6rixowYMGTQdXDPglG7N47zTYgSQCilCNz5loAAA=",
+    "color": "rgb(232 232 232)",
+    "hash": "bcb99cca3e749c4a"
+  },
+  "residential-interiors/bedroom-rings": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBACdASoYABIAPu1qqk8ppiOiMBgIATAdiWcAzNAPDACWaEUnC1mM5vKzuMDAAOJ+39bARX4nYFG3l57GoKVtzKRWKHXv+rBB/baP/NID0yD+q5Vmm4Z2TYvZpYZmTOv8uPRZn9Cjy6tlC+r2tGAcuCy1E7XQLz3tKjSE0CJHe9V2dgnolfeAAAA=",
+    "color": "rgb(184 168 152)",
+    "hash": "0505c8f4b84f777a"
+  },
+  "residential-interiors/childrens-room": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBQCdASoYABIAPu1ur1KppiQiqAgBMB2JZwDE2A+DhF8Llv9PiH81vMsuJ+VAoB0OgADLMI3zl2swU6yY+kxVue+HPZryUhXcOO6r6fPoPXXu3qJ76Hnh7HcCU2pVL5w4jzWDgzi4mOw7+fOHxRCjEWGs2zGAIlelwg2cUWiETtqaB0Kz0wGpclmPyRTxD3AsuHSdmPdM+MMAAAA=",
+    "color": "rgb(184 184 184)",
+    "hash": "bf70fdd21cc72891"
+  },
+  "residential-interiors/coffee-table": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBACdASoYABIAPu1sq1EppaOiqAqpMB2JZwDKAAkXBn39doMfGyi/F8pBgAD+p/g7nJ+jrZmPRn8SsUNRcx75q4CxV6QOj6QpRu+WcLYgm1BYZuE9Mf5r2iNOGPXMoA3e/lddF8PifC8/h5WOFZ9HoDFaGwfAHfCm0kXvHHl1zro65Pfw4MnIt9C89N9xr5/lptXvoJNeecgmCNurgMHi7YHrsHZoAAAAAA==",
+    "color": "rgb(56 40 40)",
+    "hash": "de602f2f02ef1458"
+  },
+  "residential-interiors/kitchen": {
+    "width": 1200,
+    "height": 900,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwBACdASoYABIAPu1qrVCppaQiqAqpMB2JZwDNhBGZ81hI+anbBaXWet53ZX/1HogA/p3Jf5IqiVWxrIHw0bYMmG4eGgBspDEzhD/MFjOHuigCCVGcysaxOaQH51FLv7CVcyir2/ya3ITtEQNk3ndwXPDkAWadBIQ9TnIFK7wNptpjdnxXf5/0ZlccikIwAAA=",
+    "color": "rgb(184 184 184)",
+    "hash": "6a8f99ef5179c7d5"
+  },
+  "residential-interiors/living-beige": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAQBQCdASoYABIAPu1qrlCppaQiqAqpMB2JZwDImy67pIRf8PQiXHB4n+4BbP2e6QMAAP7q6Hmkp9+V2OY6n2KgdtfDbOEl6LrSxvPhATiIqQJskp7eYxmY08jX4u0EfN3b+srnS/QjIeLsQA7h3ZoBE3OqwnbghZwlXzoHQU8RLvl8SPt9wmxmfqJg2ju2LD9LU8OdfLPwMOKE4t0rXEwm5miAAAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "83c5c4e892a62ef1"
+  },
+  "residential-interiors/living-fireplace": {
+    "width": 1600,
+    "height": 1333,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBQCdASoYABQAPu1srFEppaQiqAqpMB2JZwC+SA8/eJCNRzetuYLBRgkD8aAVSSsAAP7ACiyH54owkVBX6zFTasrvsMU+g+Yu9iTafaT4mxzm2JY4KWu2FR8Fye4BS8dAeUrb3BrWYz1+AAjz9uwDqLJQP74dxqWHxosVpf88NgszJ+qB5cjzpQumiOyjgZ5Ebq9eMebMM8RJU2gaKROttsH9JuI4KsAAAA==",
+    "color": "rgb(24 24 24)",
+    "hash": "355f61346cb6fc9f"
+  },
+  "residential-interiors/living-light": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoYABIAPu1qrlCppaQiqAqpMB2JZwC/7ywAn5pQCnYEjycSsjpYMqZVHsUgAP7zggES1We42rL5WVgKFRIQscu+9Cmu6Qi0ZmXmuTXuT+ygg87wVjm9bNE1PGqYteHLj5yyLrjUTJ/K8vM3cPLIwwJC+6+X2CCAymZoVamDzKwDhdgqxWEx3XVZwNfDxNvFWith8YhDqt+CrD6xUbbUgwj1XKcNQB1EAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "ce828bfba8b937fc"
+  },
+  "residential-interiors/living-sculpture": {
+    "width": 1400,
+    "height": 1166,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1400
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBQCdASoYABQAPu1orE+ppaQiMBgIATAdiWcAyNQPRAM+sfEGej+gqjQIfBJRoEZwAAD+8ApTVnl8ahbQ6bsflpPk2JQGf1KVE5KToYlRZU6Bx7wUD998SoowBAxGMRZAbCA6zrbQ05cogh8my7ZA2+TBQT3BtU+C9WzOzRgWb7K8sgAAAA==",
+    "color": "rgb(184 184 168)",
+    "hash": "e9a18d1566c562b2"
+  },
+  "residential-interiors/vanity": {
+    "width": 2500,
+    "height": 3125,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBQCdASoYAB4APu1eqU4ppKOiMBgMATAdiWUAwNwy4lOdQe6zvwaeTDihuh9c8er9gAD+qe2c+sw0zN0zesG8OZTXhEfP7T/nmsc1g8LfnPBTkMjD2elSZS8VWPp4S2HdaedLkfsEVyyxsF9GmaB/qV57by/nsFTWRhUWrTVKknMQyh/QphCirI8Z8CqzLI6KsQbEIDXX9JjPMQf+Zk7Nk57BwAAA",
+    "color": "rgb(104 88 72)",
+    "hash": "4ccb588a5c94a9da"
+  },
+  "sara-dining/dining-2": {
+    "width": 1200,
+    "height": 1500,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAABwBQCdASoYAB4APu1orVCppaQiqAqpMB2JZwDM0DTw7G5tClTX8REJPXrMrcP/OuYJD37QAP7hBvSA3AuwxL3kCnt+GZUV+kFHHU6ZS4G9o4eVhuK+uVuY0c+R4uUYBeYohBNOlfoO5M14cUkk2AmRFHDL+yi86txUBGH73In4gjllcj8yBuYqj57T2z1yJBlXvak0SIumNmBE4rYvrFCrggOoe2hpahZJRWQhyqaFbu2snJfROW3LFm3npqMaphwj+ep+8x653zypTAkBOsEjyDd0e95emawi9oAA",
+    "color": "rgb(200 200 200)",
+    "hash": "b5186e6a512b4ba1"
+  },
+  "sara-dining/dining-3": {
+    "width": 1200,
+    "height": 1500,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAABQBQCdASoYAB4APu1sqlGppaOiqAqpMB2JZwDNhDMtjkUBYGVnSKotahz8OyMUXdB4dPAA/uduWyRV2qafHvvNKKtPKA7yAKvGl2pda3qfyTVeAHobalPe2KL6Zcl/AxAOWJ3a5cTp7GkiK2B31k/h7Ao/shBRVdQIhi12B0Xd1hH908DEmOME6NTxAKTXeMtL53N8DjNSx3SsiXdCfaGzPU2sHuejD65jlnsrQSQ5OgGWPUgglUQLOPjxcuyDJZaaSrzRXCHP0ZigqO1f4XXyIBt5/Xf69QYfsI/dvd6DAuaAAAA=",
+    "color": "rgb(200 200 200)",
+    "hash": "c0c3a731ddb80057"
+  },
+  "sara-dining/dining": {
+    "width": 1200,
+    "height": 1000,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBACdASoYABQAPu1urlIppiQiqAgBMB2JZwDKtA+4lUbd/0VBXAhDzhsdUUu+kADONLvi/WM2fWAODi0FTlPfEKr73+UtcUfqUwaZOVJZZg5y1pbYtJ6XS/XhBuf30fhEuuahp0vjm65metmXIz5jHm7NagrU5R7w0l5oLs+RPvE28yy0rZQcCRex1CHpn2ZdoNiwFhmkMxVDVXbunB7jH4+R/AAAAAA=",
+    "color": "rgb(200 200 200)",
+    "hash": "e2fc7ed5598f7815"
+  },
+  "square-business-hub/street": {
+    "width": 3000,
+    "height": 1689,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoYAA4APu1kqU2ppaQiMAgBMB2JYwCdIMgCubRiQCc1C6cII0AA+V9P8E81D6O3ssenZHNN6V6pmQHFa+OW8UZjGd1vuk2DG2923VHoG4lpxk2c6h6EmFdYFgsPxlxC2kV4T+sNpMNTGqcV91raETExeUj225Zg3OVZXwFOYmYMZWeBAAA=",
+    "color": "rgb(216 232 248)",
+    "hash": "1c1d17cb79f659f8"
+  },
+  "supply-building/elevation-entrance": {
+    "width": 3190,
+    "height": 1587,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3190
+    ],
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoYAAwAPu1kqk4ppaQiMAgBMB2JZQAAXAYWv5GstT6pKKQgAP7zchGsXz7FoxZIHQM9CdIvgk5g/MVNrEGMntrWmi+h+xDnFan8j128smI/TzAoAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "b00ffbfc37a93a8b"
+  },
+  "supply-building/elevation-long": {
+    "width": 3191,
+    "height": 823,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3191
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoYAAYAPu1orU6ppiSiMAgBMB2JYwDCgCHfZTma2s4eQAD+7jTzs5h3i6vbfYQARdQWKfTXKQ6JLs7KAGar3pDsuFQKIKkAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "7dfc39391d612a5d"
+  },
+  "supply-building/elevation-service": {
+    "width": 3190,
+    "height": 1359,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3190
+    ],
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYAAoAPu1iqk2ppaQiMAgBMB2JZQDG9B6RT2H9fXBVdQAA/vHb2VA2zQRKLDFHwGeB3U+aHbtqz5/QgMy9/nIhsf3AoWsh/g6mfEdQomX/YAAA",
+    "color": "rgb(248 248 248)",
+    "hash": "45649c99e12dabb1"
+  },
+  "supply-building/north-elevation-sheet": {
+    "width": 3191,
+    "height": 2257,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3191
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoYABEAPuleo02pJSMiMAwBIB0JaQAAW+tes98lURjNyEHAAP7zbsgJLsSQ4K0hNwwJbyUS+GppPDEHiJD2pdZXNvbuSiAAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "2c3d4367bfd9a57b"
+  },
+  "supply-building/plan-first": {
+    "width": 3171,
+    "height": 1891,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3171
+    ],
+    "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoYAA4APu1kqU2ppaQiMAgBMB2JaQAAetv+7Gn6WAD+8H4w36CgBA7u63DqZ60Eg9VVixbjZ2LgAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "57c8d2a271c00643"
+  },
+  "supply-building/plan-ground": {
+    "width": 3171,
+    "height": 1885,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3171
+    ],
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQBACdASoYAA4APu1iqU2ppaQiMAgBMB2JaQAAW/C9xFYewAzzgI6bNN4AAP7wPgSL1NWtCTpGzIy2XeXdkujy/BPs97ZS03rMoGCZFAAAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "9da39058d9f985bc"
+  },
+  "supply-building/plan-upper": {
+    "width": 3171,
+    "height": 1891,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1800,
+      2600,
+      3171
+    ],
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JaV9qADc6O9yHOKgAAP7wZf/xHmu3H2sksnEmBebvN0s21UDBDBAAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "d15e8ddcf88f60c8"
+  },
+  "supply-building/wall-section-2": {
+    "width": 1507,
+    "height": 2226,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1507
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBQCdASoYACMAPu1or1EppaQiqrgKATAdiWkAAB9X42HmmeJ9F85wPtGQHBuM4BkmtyDXQAD+8dt9gZHpuhuotFxXwwaJULoaeyavFDooBhKbv4pQGlUzgwoEQ100CrQKqjMDcBz0VMICsF6zX3TJBlCIlHKKQAAAAA==",
+    "color": "rgb(248 248 248)",
+    "hash": "22301122bc192297"
+  },
+  "supply-building/wall-section": {
+    "width": 1629,
+    "height": 2255,
+    "kind": "drawing",
+    "widths": [
+      800,
+      1200,
+      1629
+    ],
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoYACEAPu1krVEpv6QisBVYA/AdiWkAACmXBKRjRZJlZBzhEyBcAAD+8E+Wgww1fuVu57SxZ9iaLJuKWjNu/90wiYXAnx8PwGSD5hlJTYHCyP96OUuEF14biMqP3q29Lu+myjsGZ4qPgtv3CZZQ2n1BsKxZhprAAAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "c9dc57554905fceb"
+  },
+  "villa-garden/overview": {
+    "width": 2500,
+    "height": 1875,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAABQBQCdASoYABIAPu1ur1KppiQiqAgBMB2JQBkXHdQZYW+ypwACiquUaBHP+gnTwA50kmAA/ooQB2JQZ5//VvTf1R7MG3jtmEfI8bWYCXPpqJsTyQsDDJ8149drWP5AncWfFSgvv7CVnOBG7+yqhr4OpqQNM3DhjJRY7qatyiSaqyfUgmQJ0chq4gTBqPlJx0KnoHlxQ/bEM+iZGDhc3mOrOJKCJUPgYDue0y6h+2eWg1hQxZ6/1ubrXHDfWMw4rDUdhKzCr1ARdjSQx+FLW8OAAAA=",
+    "color": "rgb(56 56 40)",
+    "hash": "96a9d390b736cbb5"
+  },
+  "villa-garden/side-yard-2": {
+    "width": 3000,
+    "height": 3000,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRuoAAABXRUJQVlA4IN4AAADQBQCdASoYABgAPu1oqk8ppiOiKA1RMB2JQBZwMaBKYUI0dqYMU8oBDT7fCd+lE63dc7nicyQAAP6KJ0ce3Fj4DiJSB+xr8v4ArI6ylSPA2YaFmt3W/rUzPLgCexJhNvQRJKkLFQGTKkk0IgQ55WpJJmWKphpS6xqy4H5FfNYCKYmD6N4T1QA94Z/jPZJXcKgzB6ndf0LpGTMJms/BC+OBMbty1CW4p4l1Zdxb8FW5t/SiOdDiOKzsmBb79kaiNE6BEtb3d5jd6ZzfGyWth0wAEf9ZPPXAGKDcAGC8AAA=",
+    "color": "rgb(24 24 24)",
+    "hash": "388822e7932cbab1"
+  },
+  "villa-garden/side-yard": {
+    "width": 3000,
+    "height": 3000,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAQBgCdASoYABgAPu1urlIppiQiqAgBMB2JYwC06ywYe8cG3VbEk2H7MJkm2wHU0aK8FQxB7meNzMAA/tOfyD/dgHljf1tDxauAAag4hPl9rmfLInia9eQEP5KcDD2DusDwBRGCmvs8D/J4sEkvDV3vpIjLwDRABay2dW+VlPQPfKNG4Q8dnfX+nWkYvfmlUoJ+utkMOCp93eOfOraJWHmtTlXzwYHg0xMCJH2TOTHy9NfmvXUiAiT2+vdhILiQqkkUFNcYAEvgy5y6WbwjDuhpTwCmiqmBTqs80QAA",
+    "color": "rgb(24 24 24)",
+    "hash": "fa96f705befac4ce"
+  },
+  "villa-garden/water-basin-2": {
+    "width": 2500,
+    "height": 1875,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAABQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JYwDE2ywA4Id+1N7+gxBU3Ckq3GeB4FvVhAAA/p8FrcjkbmEfBMWrMdEb4t1pGVM//YMskH+DYVyHT6W78CNOwFvOHdLVFc+na5/iazlv1+yRH7D+iBTj5Lvoac4mTjoYKoBnvR83CW2WrD6ihcGKzL735SSPaV/DhjfMrTR58hsEwJwKz38RZ7hl0hIgCU8yrb7c0Auw5TKNFbifVm5LMB/8yv4V+F0AAA==",
+    "color": "rgb(56 40 40)",
+    "hash": "6a43c823d6a1ad38"
+  },
+  "villa-garden/water-basin": {
+    "width": 2500,
+    "height": 1875,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2500
+    ],
+    "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwBACdASoYABIAPu1sqlEppaOiqAqpMB2JZQC1GoABSNwfyIdXLzbPe1ifRXBmqgAA/radbQq5xRI/t6wjuOz5BWTFsEv+T9LRsQmbNYkYUJlW4/+b5Tx1+P7ztp1WiHoTmZnXFwMs9QVaaKCP80FSE2sX5rFceewVfYz0OrmbEept3VN48JlkLifX9PWHPplO8f1G4xV8Xd6TTvJI05dA5QEdIjSqrbRxHypZM/0Rj961IAA=",
+    "color": "rgb(248 248 248)",
+    "hash": "d9343cbfb5b05450"
+  },
+  "yasser-villa/master-suite": {
+    "width": 3200,
+    "height": 2400,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBACdASoYABIAPu1orlCppaQiqAqpMB2JZwAAL3hL9JhQJr/WYh+EedTfHQAA/pl2nL78B/fuD2E09f3OfuSLRvzRRsv/8LeFPOb8fa1tjDSR1gl2Ap4CQN6uxD/8mXtWwq5wumXv+DysAmb9cSBttQ99yN017M0wH4Fp8Kt1apD9keHLvpzwo/S+YeAL1gAAAA==",
+    "color": "rgb(152 136 120)",
+    "hash": "f7827416d4710c34"
+  }
+}
