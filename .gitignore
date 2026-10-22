@@ -46,3 +46,5 @@ next-env.d.ts
 /.review/
 # local editor/agent settings
 /.claude/
+# personal source files copied into the project (never publish)
+/Abdelrhman Portfolio/
