@@ -1,0 +1,8 @@
+work mobile: perf 90 a11y 100 bp 100 seo 100 | LCP 3.7 s CLS 0
+work desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+bim mobile: perf 94 a11y 100 bp 100 seo 100 | LCP 3.1 s CLS 0
+bim desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+work_supply-administration-building mobile: perf 93 a11y 100 bp 100 seo 100 | LCP 3.2 s CLS 0
+work_supply-administration-building desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+about mobile: perf 95 a11y 100 bp 100 seo 100 | LCP 2.9 s CLS 0
+about desktop: perf 99 a11y 100 bp 100 seo 100 | LCP 0.9 s CLS 0

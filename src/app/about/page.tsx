@@ -47,7 +47,7 @@ export default function AboutPage() {
 
   return (
     <div className="px-[var(--gutter)]">
-      <header className="grid gap-10 pt-10 pb-16 md:grid-cols-12 md:pt-16">
+      <header className="grid gap-10 pt-[calc(var(--header-h)+2.5rem)] pb-16 md:grid-cols-12 md:pt-[calc(var(--header-h)+4rem)]">
         <div className="md:col-span-7">
           <h1 className="t-title">About</h1>
           <p className="t-lead mt-8">{about.intro}</p>

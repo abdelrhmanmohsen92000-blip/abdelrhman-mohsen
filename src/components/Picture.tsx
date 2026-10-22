@@ -29,13 +29,15 @@ interface PictureProps {
   priority?: boolean;
   /** Above the fold but not the LCP image: load eagerly at normal priority. */
   eager?: boolean;
+  /** Cover the positioned parent completely (heroes); ignores ratio. */
+  fill?: boolean;
 }
 
 /** Responsive <picture> with AVIF and WebP sources and a blurred placeholder behind it. */
-export function Picture({ id, alt, sizes, className, ratio, fit = "cover", position, priority, eager }: PictureProps) {
+export function Picture({ id, alt, sizes, className, ratio, fit = "cover", position, priority, eager, fill }: PictureProps) {
   const m = getMedia(id);
   const style: CSSProperties = {
-    aspectRatio: ratio ?? `${m.width} / ${m.height}`,
+    ...(fill ? { position: "absolute", inset: 0, width: "100%", height: "100%" } : { aspectRatio: ratio ?? `${m.width} / ${m.height}` }),
     backgroundColor: fit === "cover" ? m.color : undefined,
     backgroundImage: fit === "cover" ? `url(${m.blur})` : undefined,
   };

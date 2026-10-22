@@ -892,6 +892,21 @@
     "color": "rgb(152 184 216)",
     "hash": "3ef82f7c3b3d6c05"
   },
+  "m3mar-villa/corner": {
+    "width": 3200,
+    "height": 1800,
+    "kind": "photo",
+    "widths": [
+      480,
+      800,
+      1200,
+      1800,
+      2600
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JbACdACPRsJjbyZ2+3EdAAPfdaqz5kHaGKRspm3RAHR0KzQTv/pYsWPfHktI3gWV1eHQ91dqGqN4Sx41wSQyDVxqxKj6tD9fZ3IeWp3wZClRGfI47+LXSRwJrBPdjskqrPn/XHCY7TfbfZ9hzU3gX3jVAAA==",
+    "color": "rgb(8 8 8)",
+    "hash": "d9e7bb4781aaba3f"
+  },
   "m3mar-villa/day": {
     "width": 3200,
     "height": 1800,
@@ -906,21 +921,6 @@
     "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQAwCdASoYAA0APu1iqU2ppaQiMAgBMB2JQBOgBHtd984hpi4acOgA/lYATmEn9k2xU2mkMWus55wE91oWSUG+Y1m/averfgorp0YKslF95unYeeIN/gw3FEsVKxuYY1+ADmcnBBPIHRydtyPFRPdqSXvQZ28QtDo0usmUnvEcE5h+QNSZh3hYjXN4Uu8njd9DrgAAAAA=",
     "color": "rgb(8 8 8)",
     "hash": "93d1df89b90f8297"
-  },
-  "m3mar-villa/night": {
-    "width": 3200,
-    "height": 1800,
-    "kind": "photo",
-    "widths": [
-      480,
-      800,
-      1200,
-      1800,
-      2600
-    ],
-    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JbACdACPRsJjbyZ2+3EdAAPfdaqz5kHaGKRspm3RAHR0KzQTv/pYsWPfHktI3gWV1eHQ91dqGqN4Sx41wSQyDVxqxKj6tD9fZ3IeWp3wZClRGfI47+LXSRwJrBPdjskqrPn/XHCY7TfbfZ9hzU3gX3jVAAA==",
-    "color": "rgb(8 8 8)",
-    "hash": "d9e7bb4781aaba3f"
   },
   "majlis/majlis": {
     "width": 2500,
@@ -937,7 +937,7 @@
     "color": "rgb(216 200 184)",
     "hash": "a5c0e45308ff359e"
   },
-  "mall-new-damietta/night-2": {
+  "mall-new-damietta/day": {
     "width": 3200,
     "height": 2400,
     "kind": "photo",

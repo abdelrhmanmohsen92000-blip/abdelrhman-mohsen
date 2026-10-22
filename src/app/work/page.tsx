@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const order: Discipline[] = ["architecture", "exterior", "interior", "landscape", "bim", "visualization"];
 
-const CARD_SIZES = "(min-width: 1280px) calc((100vw - 340px) / 3), (min-width: 640px) 50vw, 100vw";
+const CARD_SIZES = "(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw";
 
 export default function WorkPage() {
   preloadPicture(publishedProjects[0].cover.id, CARD_SIZES);
@@ -52,7 +52,7 @@ export default function WorkPage() {
   }));
 
   return (
-    <div className="px-[var(--gutter)] pt-10 md:pt-16">
+    <div className="px-[var(--gutter)] pt-[calc(var(--header-h)+2.5rem)] md:pt-[calc(var(--header-h)+4rem)]">
       <header className="mb-10 grid gap-6 md:grid-cols-12">
         <h1 className="t-title md:col-span-6">Work</h1>
         <p className="t-lead text-lead md:col-span-6 md:self-end">

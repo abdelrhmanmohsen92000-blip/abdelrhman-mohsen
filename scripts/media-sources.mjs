@@ -68,7 +68,7 @@ export const mediaSources = [
 
   // M3MAR Villa — classical, Qatar, 600 m² (portfolio PDF p.24)
   { id: "m3mar-villa/day", src: `${DESIGNS}/1 (20).jpg`, kind: "photo" },
-  { id: "m3mar-villa/night", src: `${DESIGNS}/2 (14).jpg`, kind: "photo" },
+  { id: "m3mar-villa/corner", src: `${DESIGNS}/2 (14).jpg`, kind: "photo" },
 
   // Classical villa — Qatar, 800 m² (portfolio PDF p.25)
   { id: "qatar-classical-villa/street", src: `${DESIGNS}/1 (17).jpg`, kind: "photo" },
@@ -94,7 +94,7 @@ export const mediaSources = [
 
   // Mall — New Damietta, 400 m² (portfolio PDF p.27)
   { id: "mall-new-damietta/night", src: `${DESIGNS}/5 (3).jpg`, kind: "photo" },
-  { id: "mall-new-damietta/night-2", src: `${DESIGNS}/1 (9).jpg`, kind: "photo" },
+  { id: "mall-new-damietta/day", src: `${DESIGNS}/1 (9).jpg`, kind: "photo" },
 
   // Master plan — Egypt, 50,000 m² (portfolio PDF p.27)
   { id: "master-plan-egypt/aerial", src: `${DESIGNS}/3_23 - Photo.jpg`, kind: "photo" },

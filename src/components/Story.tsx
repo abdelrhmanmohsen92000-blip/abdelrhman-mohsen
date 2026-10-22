@@ -57,9 +57,9 @@ export function ZoomFigure({ figure, index, sizes, sheet, ratio, priority, class
   );
 }
 
-const MAIN = "(min-width: 1440px) calc(100vw - 340px - 5.5rem), (min-width: 1024px) calc(100vw - 300px - 5.5rem), calc(100vw - 2rem)";
-const HALF = "(min-width: 1024px) calc((100vw - 300px) / 2), (min-width: 640px) 50vw, 100vw";
-const THIRD = "(min-width: 1024px) calc((100vw - 300px) / 3), (min-width: 640px) 50vw, 100vw";
+const MAIN = "(min-width: 1024px) calc(100vw - 6.5rem), calc(100vw - 2rem)";
+const HALF = "(min-width: 1024px) 50vw, (min-width: 640px) 50vw, 100vw";
+const THIRD = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw";
 
 /** Renders a project's story: text sections and figures in editorial layouts. */
 export function Story({ blocks, figures }: { blocks: StoryBlock[]; figures: Figure[] }) {
@@ -89,7 +89,7 @@ export function Story({ blocks, figures }: { blocks: StoryBlock[]; figures: Figu
                 <ZoomFigure
                   figure={b.figure}
                   index={indexOf(b.figure)}
-                  sizes={size === "full" ? "(min-width: 1024px) calc(100vw - 300px), 100vw" : MAIN}
+                  sizes={size === "full" ? "100vw" : MAIN}
                   sheet={size === "sheet" ? true : undefined}
                   className={`${narrow} ${size === "full" ? "[&_figcaption]:px-[var(--gutter)]" : ""}`}
                 />

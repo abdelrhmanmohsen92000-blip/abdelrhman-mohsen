@@ -48,3 +48,10 @@ next-env.d.ts
 /.claude/
 # personal source files copied into the project (never publish)
 /Abdelrhman Portfolio/
+# redesign working files that show unpublished originals or local paths (kept local)
+/docs/redesign/contact-sheets/originals-*.jpg
+/docs/redesign/contact-sheets/inventory.json
+/docs/redesign/after/pass*/crop-*.jpg
+/docs/redesign/after/pass*/m-*.jpg
+/docs/redesign/after/pass*/top-*.jpg
+/docs/redesign/after/pass*/mobile-small.jpg

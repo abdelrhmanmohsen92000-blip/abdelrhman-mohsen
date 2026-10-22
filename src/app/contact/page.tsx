@@ -18,7 +18,7 @@ export default function ContactPage() {
   const { contact, person, ui } = site;
 
   return (
-    <div className="grid gap-16 px-[var(--gutter)] pt-10 md:pt-16 lg:grid-cols-12">
+    <div className="grid gap-16 px-[var(--gutter)] pt-[calc(var(--header-h)+2.5rem)] md:pt-[calc(var(--header-h)+4rem)] lg:grid-cols-12">
       <div className="lg:col-span-6">
         <h1 className="t-title">{contactPage.title}</h1>
         <p className="t-lead mt-8 text-lead">{contactPage.intro}</p>

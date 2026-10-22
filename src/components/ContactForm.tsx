@@ -86,7 +86,7 @@ export function ContactForm({ to, copy }: { to: string; copy: Copy }) {
       </div>
       <p role="status" className="min-h-6 text-[0.9375rem]">
         {status === "sent" && (endpoint ? copy.sentService : copy.sent)}
-        {status === "error" && <span className="text-redline">{copy.error}</span>}
+        {status === "error" && <span className="text-accent">{copy.error}</span>}
       </p>
     </form>
   );

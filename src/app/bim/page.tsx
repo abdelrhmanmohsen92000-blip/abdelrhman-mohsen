@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 export default function BimPage() {
   const { bimPage, capabilities, record, toolkit } = profile;
   const figures: Figure[] = [bimPage.lead, ...bimPage.gallery];
-  const leadSizes = "(min-width: 1024px) calc(100vw - 300px - 5.5rem), 100vw";
+  const leadSizes = "(min-width: 1024px) calc(100vw - 6.5rem), 100vw";
   preloadPicture(bimPage.lead.id, leadSizes);
 
   return (
     <>
-      <header className="grid gap-6 px-[var(--gutter)] pt-10 pb-12 md:grid-cols-12 md:pt-16">
+      <header className="grid gap-6 px-[var(--gutter)] pt-[calc(var(--header-h)+2.5rem)] pb-12 md:grid-cols-12 md:pt-[calc(var(--header-h)+4rem)]">
         <h1 className="t-title md:col-span-7">{bimPage.title}</h1>
         <p className="t-lead text-lead md:col-span-5 md:self-end">{bimPage.intro}</p>
       </header>
@@ -79,7 +79,7 @@ export default function BimPage() {
                   index={i + 1}
                   sheet
                   ratio="4 / 3"
-                  sizes="(min-width: 1024px) calc((100vw - 300px) / 3), (min-width: 640px) 50vw, 100vw"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 />
                 {project && (
                   <p className="t-meta mt-1">

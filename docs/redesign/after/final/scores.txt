@@ -1,0 +1,14 @@
+home mobile: perf 94 a11y 100 bp 100 seo 100 | LCP 3.0 s CLS 0
+home desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+work mobile: perf 90 a11y 100 bp 100 seo 100 | LCP 3.6 s CLS 0
+work desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+work_lamar-business-park mobile: perf 94 a11y 100 bp 100 seo 100 | LCP 3.0 s CLS 0
+work_lamar-business-park desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+work_buraydah-town-houses mobile: perf 93 a11y 100 bp 100 seo 100 | LCP 3.1 s CLS 0
+work_buraydah-town-houses desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+bim mobile: perf 94 a11y 100 bp 100 seo 100 | LCP 3.1 s CLS 0
+bim desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0
+about mobile: perf 95 a11y 100 bp 100 seo 100 | LCP 2.9 s CLS 0
+about desktop: perf 99 a11y 100 bp 100 seo 100 | LCP 0.9 s CLS 0
+contact mobile: perf 98 a11y 100 bp 100 seo 100 | LCP 2.3 s CLS 0
+contact desktop: perf 99 a11y 100 bp 100 seo 100 | LCP 0.9 s CLS 0

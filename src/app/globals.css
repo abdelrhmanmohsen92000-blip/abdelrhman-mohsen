@@ -1,34 +1,35 @@
 @import "tailwindcss";
 
 /*
-  Design system: "Title block"
-  The site is laid out like an architectural drawing sheet. Every page carries a title block
-  (the fixed column on the inline-end side on large screens), drawings sit on white sheets,
-  renders run full-bleed, and the single accent is the redline used for markups on drawings.
-  Logical properties (inline-start/end) are used throughout so an Arabic (RTL) version
-  mirrors correctly without new CSS.
+  Design system: "Render and drawing"
+  The site alternates between two kinds of chapter. Dark chapters (.chapter-dark) show renders
+  full-bleed, like a screening. Paper chapters show drawings on white sheets, like a drawing
+  set. Type is one family, Archivo, whose width axis gives an expanded display voice and a
+  condensed technical one. The only accent is glazing blue, taken from the glazing on the
+  Revit elevations, and it is used for focus and active states, never decoration.
+  Logical properties (inline-start/end) are used throughout so an Arabic (RTL) version mirrors.
 */
 
 :root {
   --paper: #f1f2ef;
   --sheet: #ffffff;
   --ink: #1e2226;
+  --on-ink: #f1f2ef;
   --lead: #596066;
   --line: #cdd1ce;
   --line-strong: #9ea4a3;
   --shade: #e5e8e4;
-  --redline: #c4321f;
+  --accent: #3c6e9f;
 
-  --tb-width: 300px;
-  --gutter: clamp(1rem, 3.2vw, 2.75rem);
+  --graphite: #181a1c;
+  --carbon: #222527;
+  --bone: #ecebe6;
+
+  --header-h: 4.25rem;
+  --gutter: clamp(1.1rem, 3.6vw, 3.25rem);
   --measure: 64ch;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-plot: cubic-bezier(0.65, 0, 0.35, 1);
-}
-
-@media (min-width: 1440px) {
-  :root {
-    --tb-width: 340px;
-  }
 }
 
 @theme inline {
@@ -39,7 +40,10 @@
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --color-shade: var(--shade);
-  --color-redline: var(--redline);
+  --color-accent: var(--accent);
+  --color-graphite: var(--graphite);
+  --color-carbon: var(--carbon);
+  --color-bone: var(--bone);
   --font-sans: var(--font-archivo), ui-sans-serif, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
   --breakpoint-xs: 30rem;
 }
@@ -50,7 +54,7 @@
     color: var(--ink);
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: calc(var(--header-h) + 1rem);
   }
 
   body {
@@ -67,17 +71,39 @@
 
   ::selection {
     background: var(--ink);
-    color: var(--paper);
+    color: var(--on-ink);
   }
 
   :focus-visible {
-    outline: 2px solid var(--redline);
+    outline: 2px solid var(--accent);
     outline-offset: 3px;
   }
 }
 
 @layer components {
+  /* ---------- Dark chapters: the same tokens, re-pointed ---------- */
+
+  .chapter-dark {
+    --ink: var(--bone);
+    --on-ink: var(--graphite);
+    --lead: #a0a6aa;
+    --line: #33373a;
+    --line-strong: #50565a;
+    --shade: var(--carbon);
+    --accent: #9cc0e0;
+    background: var(--graphite);
+    color: var(--bone);
+  }
+
   /* ---------- Type ---------- */
+
+  .t-hero {
+    font-size: clamp(2.65rem, 6.6vw, 7.75rem);
+    line-height: 0.9;
+    font-weight: 330;
+    font-variation-settings: "wdth" 125;
+    letter-spacing: -0.035em;
+  }
 
   .t-display {
     font-size: clamp(2.5rem, 6.4vw, 6.75rem);
@@ -97,6 +123,16 @@
     text-wrap: balance;
   }
 
+  /* Condensed, upright project names: the technical half of the type system. */
+  .t-project {
+    font-size: clamp(2rem, 3.5vw, 3.6rem);
+    line-height: 0.95;
+    font-weight: 500;
+    font-variation-settings: "wdth" 78;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
   .t-heading {
     font-size: clamp(1.55rem, 2.4vw, 2.3rem);
     line-height: 1.1;
@@ -111,6 +147,15 @@
     line-height: 1.3;
     font-weight: 600;
     font-variation-settings: "wdth" 104;
+  }
+
+  .t-statement {
+    font-size: clamp(1.35rem, 2.3vw, 2.3rem);
+    line-height: 1.18;
+    font-weight: 340;
+    font-variation-settings: "wdth" 110;
+    letter-spacing: -0.012em;
+    text-wrap: pretty;
   }
 
   .t-lead {
@@ -168,7 +213,7 @@
   }
 
   .link:hover {
-    color: var(--redline);
+    color: var(--accent);
     text-decoration-color: currentColor;
   }
 
@@ -180,7 +225,7 @@
     justify-content: center;
     gap: 0.6em;
     min-height: 2.875rem;
-    padding: 0.6rem 1.15rem;
+    padding: 0.6rem 1.25rem;
     border: 1px solid var(--ink);
     border-radius: 2px;
     font-size: 0.9375rem;
@@ -188,20 +233,21 @@
     font-variation-settings: "wdth" 96;
     line-height: 1.2;
     transition:
-      background-color 160ms,
-      color 160ms,
-      border-color 160ms;
+      background-color 200ms,
+      color 200ms,
+      border-color 200ms;
     white-space: nowrap;
   }
 
   .btn-primary {
     background: var(--ink);
-    color: var(--paper);
+    color: var(--on-ink);
   }
 
   .btn-primary:hover {
-    background: var(--redline);
-    border-color: var(--redline);
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--graphite);
   }
 
   .btn-quiet {
@@ -211,59 +257,70 @@
 
   .btn-quiet:hover {
     background: var(--ink);
-    color: var(--paper);
+    color: var(--on-ink);
   }
 
-  /* ---------- Shell & title block ---------- */
+  /* ---------- Site header ---------- */
 
-  .shell {
-    min-height: 100dvh;
-  }
-
-  @media (min-width: 1024px) {
-    .shell {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) var(--tb-width);
-    }
-  }
-
-  .title-block {
-    border-inline-start: 1px solid var(--line-strong);
-    background: var(--paper);
-  }
-
-  .tb-cell {
-    border-block-end: 1px solid var(--line);
-    padding: 1rem 1.25rem;
-  }
-
-  .tb-nav a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.55rem 1.25rem;
-    font-size: 1.0625rem;
-    font-variation-settings: "wdth" 100;
+  .site-header {
+    position: fixed;
+    inset-inline: 0;
+    inset-block-start: 0;
+    z-index: 40;
+    block-size: var(--header-h);
+    color: var(--ink);
     transition:
-      color 160ms,
-      background-color 160ms;
+      background-color 400ms var(--ease-out),
+      color 400ms var(--ease-out),
+      border-color 400ms var(--ease-out);
+    border-block-end: 1px solid transparent;
   }
 
-  .tb-nav a:hover {
-    color: var(--redline);
+  .site-header[data-tone="light"] {
+    color: var(--bone);
+    --ink: var(--bone);
+    --on-ink: var(--graphite);
+    --line-strong: rgb(236 235 230 / 0.45);
+    --accent: #9cc0e0;
   }
 
-  .tb-nav a[aria-current="page"] {
-    font-weight: 600;
+  .site-header[data-solid="true"] {
+    background: rgb(241 242 239 / 0.92);
+    backdrop-filter: saturate(1.2) blur(10px);
+    border-block-end-color: var(--line);
+    color: var(--ink);
   }
 
-  .tb-nav a[aria-current="page"]::after {
+  .site-header[data-solid="true"][data-tone="light"] {
+    background: rgb(24 26 28 / 0.9);
+    border-block-end-color: rgb(236 235 230 / 0.12);
+  }
+
+  .nav-link {
+    position: relative;
+    padding-block: 0.4rem;
+    font-size: 0.9375rem;
+  }
+
+  .nav-link::after {
     content: "";
-    inline-size: 0.5rem;
-    block-size: 0.5rem;
-    background: var(--redline);
-    flex: none;
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0.15rem;
+    block-size: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 350ms var(--ease-out);
+  }
+
+  .nav-link:hover::after,
+  .nav-link[aria-current="page"]::after {
+    transform: scaleX(1);
+  }
+
+  .nav-link[aria-current="page"]::after {
+    background: var(--accent);
   }
 
   /* ---------- Media ---------- */
@@ -286,6 +343,10 @@
     padding: clamp(0.75rem, 2.4vw, 2.25rem);
   }
 
+  .chapter-dark .sheet {
+    border-color: transparent;
+  }
+
   .sheet .pic {
     background-image: none !important;
   }
@@ -301,6 +362,39 @@
     outline-offset: 4px;
   }
 
+  /* Image that eases its scale on hover, inside an overflow-hidden frame. */
+  .frame {
+    overflow: hidden;
+  }
+
+  .frame .pic img {
+    transition: transform 1.1s var(--ease-out);
+  }
+
+  .group:hover .frame .pic img,
+  .group:focus-visible .frame .pic img {
+    transform: scale(1.035);
+  }
+
+  /* Bottom shade so type can sit on a render. */
+  .shade-bottom::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgb(12 13 14 / 0.82) 0%, rgb(12 13 14 / 0.35) 38%, rgb(12 13 14 / 0) 62%);
+    pointer-events: none;
+  }
+
+  .shade-top::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    block-size: 9rem;
+    background: linear-gradient(to bottom, rgb(12 13 14 / 0.45), rgb(12 13 14 / 0));
+    pointer-events: none;
+    z-index: 1;
+  }
+
   /* ---------- Rules ---------- */
 
   .rule {
@@ -310,182 +404,276 @@
   .rule-light {
     border-block-start: 1px solid var(--line);
   }
+
+  /* ---------- Title block facts ---------- */
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    border-block-start: 1px solid var(--line-strong);
+  }
+
+  .facts > div {
+    border-block-end: 1px solid var(--line);
+    border-inline-end: 1px solid var(--line);
+    padding: 0.9rem 1rem 1rem 0;
+  }
+
+  /* ---------- Lightbox ---------- */
+
+  .lightbox {
+    inline-size: 100vw;
+    block-size: 100dvh;
+    max-inline-size: none;
+    max-block-size: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: rgb(18 21 24 / 0.97);
+    color: #eef0ee;
+  }
+
+  .lightbox::backdrop {
+    background: rgb(18 21 24 / 0.6);
+  }
+
+  .lightbox[open] {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+
+  .lightbox .btn-quiet {
+    color: #eef0ee;
+    border-color: rgb(238 240 238 / 0.35);
+  }
+
+  .lightbox .btn-quiet:hover {
+    background: #eef0ee;
+    color: var(--ink);
+  }
+
+  .lightbox-stage {
+    overflow: auto;
+    overscroll-behavior: contain;
+    display: grid;
+    place-items: center;
+    padding: 0 var(--gutter);
+  }
+
+  .lightbox-stage img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+    object-fit: contain;
+    cursor: zoom-in;
+  }
+
+  .lightbox-stage.is-zoomed {
+    place-items: start;
+  }
+
+  .lightbox-stage.is-zoomed img {
+    max-inline-size: none;
+    max-block-size: none;
+    cursor: zoom-out;
+  }
+
+  .lightbox-stage .on-sheet {
+    background: #fff;
+    padding: 1rem;
+  }
+
+  /* ---------- Forms ---------- */
+
+  .field {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .field input,
+  .field textarea,
+  .field select {
+    inline-size: 100%;
+    background: var(--sheet);
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    padding: 0.7rem 0.8rem;
+    font: inherit;
+    color: var(--ink);
+  }
+
+  .field input:focus-visible,
+  .field textarea:focus-visible,
+  .field select:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    border-color: var(--ink);
+  }
+
+  /* ---------- Register (project index table) ---------- */
+
+  .register-row {
+    transition: background-color 140ms;
+  }
+
+  .register-row:hover,
+  .register-row:focus-within {
+    background: var(--shade);
+  }
+
+  .register-preview {
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inline-size: 22rem;
+    pointer-events: none;
+    z-index: 40;
+    opacity: 0;
+    transition: opacity 160ms;
+  }
+
+  .register-preview.is-visible {
+    opacity: 1;
+  }
 }
 
-/* ---------- Motion: one orchestrated moment on the home hero ----------
-   The images themselves are never hidden (that would delay Largest Contentful Paint).
-   Instead a paper-coloured veil lifts off the render and a white one wipes down off the
-   drawing, like a sheet coming out of the plotter. */
+/* ---------- Motion ----------
+   1. Home hero: the render settles (scale only, so it still counts as painted for LCP) and the
+      headline lines rise out of masks, once, on load.
+   2. Scroll reveals: [data-reveal] elements rise in; [data-reveal="mask"] images open from a
+      clip and settle. Hidden only when JS has marked the page (.js) and motion is allowed.
+   3. Parallax: featured images drift slightly with scroll, via CSS scroll-driven animation
+      where the browser supports it (no JS, no scroll hijacking).
+   4. Page changes: content fades up when a route mounts (app/template.tsx).
+   Everything is off under prefers-reduced-motion. */
 
-.veil {
-  display: none;
+/* Each headline line is its own row, with or without motion. */
+.line-mask,
+.line-rise {
+  display: block;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .veil {
+  .hero-settle {
+    animation: hero-settle 2.6s var(--ease-out) both;
+  }
+
+  .line-mask {
+    overflow: hidden;
+    padding-block-end: 0.06em;
+    margin-block-end: -0.06em;
+  }
+
+  .line-rise {
     display: block;
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
+    animation: line-rise 1.15s var(--ease-out) both;
+    animation-delay: calc(0.35s + var(--i, 0) * 0.12s);
   }
 
-  .veil-fade {
-    background: var(--paper);
-    animation: veil-fade 1.2s var(--ease-plot) both;
+  .fade-in {
+    animation: fade-in 1s var(--ease-out) both;
+    animation-delay: var(--d, 0.9s);
   }
 
-  .veil-plot {
-    background: var(--sheet);
-    transform-origin: 50% 100%;
-    animation: veil-plot 1.6s var(--ease-plot) 0.3s both;
+  .page-enter {
+    animation: page-enter 0.7s var(--ease-out) both;
   }
 
-  .rise-in {
-    animation: rise-in 0.9s var(--ease-plot) 0.9s both;
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translateY(1.75rem);
+    transition:
+      opacity 0.9s var(--ease-out),
+      transform 0.9s var(--ease-out);
+    transition-delay: var(--d, 0s);
   }
 
-  @keyframes veil-fade {
-    to {
-      opacity: 0;
+  .js [data-reveal].is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .js [data-reveal="mask"] {
+    opacity: 1;
+    transform: none;
+    clip-path: inset(14% 0 0 0);
+    transition: clip-path 1.3s var(--ease-out);
+  }
+
+  .js [data-reveal="mask"] .pic img {
+    transform: scale(1.12);
+    transition: transform 1.6s var(--ease-out);
+  }
+
+  .js [data-reveal="mask"].is-in {
+    clip-path: inset(0 0 0 0);
+  }
+
+  .js [data-reveal="mask"].is-in .pic img {
+    transform: none;
+  }
+
+  .js .group:hover [data-reveal="mask"].is-in .pic img {
+    transform: scale(1.035);
+  }
+
+  @supports (animation-timeline: view()) {
+    .drift {
+      animation: drift linear both;
+      animation-timeline: view();
+      animation-range: entry 0% exit 100%;
     }
   }
 
-  @keyframes veil-plot {
+  @keyframes hero-settle {
+    from {
+      transform: scale(1.09);
+    }
     to {
-      transform: scaleY(0);
+      transform: none;
     }
   }
 
-  @keyframes rise-in {
+  @keyframes line-rise {
+    from {
+      transform: translateY(105%);
+    }
+    to {
+      transform: none;
+    }
+  }
+
+  @keyframes fade-in {
     from {
       opacity: 0;
-      transform: translateY(0.6rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes page-enter {
+    from {
+      opacity: 0;
+      transform: translateY(0.9rem);
     }
     to {
       opacity: 1;
       transform: none;
     }
   }
-}
 
-/* ---------- Lightbox ---------- */
-
-.lightbox {
-  inline-size: 100vw;
-  block-size: 100dvh;
-  max-inline-size: none;
-  max-block-size: none;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: rgb(18 21 24 / 0.97);
-  color: #eef0ee;
-}
-
-.lightbox::backdrop {
-  background: rgb(18 21 24 / 0.6);
-}
-
-.lightbox[open] {
-  display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
-}
-
-.lightbox .btn-quiet {
-  color: #eef0ee;
-  border-color: rgb(238 240 238 / 0.35);
-}
-
-.lightbox .btn-quiet:hover {
-  background: #eef0ee;
-  color: var(--ink);
-}
-
-.lightbox-stage {
-  overflow: auto;
-  overscroll-behavior: contain;
-  display: grid;
-  place-items: center;
-  padding: 0 var(--gutter);
-}
-
-.lightbox-stage img {
-  max-inline-size: 100%;
-  max-block-size: 100%;
-  object-fit: contain;
-  cursor: zoom-in;
-}
-
-.lightbox-stage.is-zoomed {
-  place-items: start;
-}
-
-.lightbox-stage.is-zoomed img {
-  max-inline-size: none;
-  max-block-size: none;
-  cursor: zoom-out;
-}
-
-.lightbox-stage .on-sheet {
-  background: #fff;
-  padding: 1rem;
-}
-
-/* ---------- Forms ---------- */
-
-.field {
-  display: grid;
-  gap: 0.4rem;
-}
-
-.field input,
-.field textarea,
-.field select {
-  inline-size: 100%;
-  background: var(--sheet);
-  border: 1px solid var(--line-strong);
-  border-radius: 2px;
-  padding: 0.7rem 0.8rem;
-  font: inherit;
-  color: inherit;
-}
-
-.field input:focus-visible,
-.field textarea:focus-visible,
-.field select:focus-visible {
-  outline: 2px solid var(--redline);
-  outline-offset: 1px;
-  border-color: var(--ink);
-}
-
-/* ---------- Register (project index table) ---------- */
-
-.register-row {
-  transition: background-color 140ms;
-}
-
-.register-row:hover,
-.register-row:focus-within {
-  background: var(--shade);
-}
-
-.register-preview {
-  position: fixed;
-  inset-block-start: 0;
-  inset-inline-start: 0;
-  inline-size: 22rem;
-  pointer-events: none;
-  z-index: 40;
-  opacity: 0;
-  transition: opacity 160ms;
-}
-
-.register-preview.is-visible {
-  opacity: 1;
+  @keyframes drift {
+    from {
+      transform: translateY(-4%) scale(1.08);
+    }
+    to {
+      transform: translateY(4%) scale(1.08);
+    }
+  }
 }
 
 @media print {
-  .title-block,
+  .site-header,
   .no-print {
     display: none !important;
   }

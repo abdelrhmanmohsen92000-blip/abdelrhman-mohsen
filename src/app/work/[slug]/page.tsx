@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProject, nextProject, publishedProjects, site } from "@/content";
+import type { Project } from "@/content/types";
 import { JsonLd } from "@/components/JsonLd";
 import { Picture, preloadPicture } from "@/components/Picture";
 import { ProjectFacts } from "@/components/ProjectFacts";
@@ -12,8 +13,8 @@ import { absoluteUrl } from "@/lib/url";
 
 export const dynamicParams = false;
 
-const SHEET_SIZES = "(min-width: 1024px) calc(100vw - 300px - 5.5rem), 100vw";
-const PHOTO_SIZES = "(min-width: 1440px) calc(100vw - 340px), (min-width: 1024px) calc(100vw - 300px), 100vw";
+const SHEET_SIZES = "(min-width: 1024px) calc(100vw - 6.5rem), 100vw";
+const PHOTO_SIZES = "100vw";
 
 export function generateStaticParams() {
   return publishedProjects.map((p) => ({ slug: p.slug }));
@@ -32,6 +33,34 @@ export async function generateMetadata({ params }: PageProps<"/work/[slug]">): P
     openGraph: { type: "article", title: project.title, description: project.summary, url, images: [{ url: image, width: 1200, alt: project.cover.alt }] },
     twitter: { card: "summary_large_image", title: project.title, description: project.summary, images: [image] },
   };
+}
+
+function Breadcrumb({ project }: { project: Project }) {
+  return (
+    <nav aria-label="Breadcrumb" className="t-meta mb-6">
+      <Link className="link" href="/work">
+        Work
+      </Link>
+      <span aria-hidden="true" className="mx-2">
+        /
+      </span>
+      <span>{projectMeta(project)}</span>
+    </nav>
+  );
+}
+
+function Disciplines({ project }: { project: Project }) {
+  return (
+    <ul className="mt-6 flex flex-wrap gap-2" aria-label="Disciplines">
+      {project.disciplines.map((d) => (
+        <li key={d}>
+          <Link href={`/work?discipline=${d}`} className="t-meta inline-block border border-line-strong px-2.5 py-1 text-ink hover:border-ink">
+            {site.disciplineLabels[d]}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 export default async function ProjectPage({ params }: PageProps<"/work/[slug]">) {
@@ -61,60 +90,51 @@ export default async function ProjectPage({ params }: PageProps<"/work/[slug]">)
   return (
     <article>
       <JsonLd data={schema} />
-      <header className="px-[var(--gutter)] pt-10 pb-10 md:pt-16 md:pb-14">
-        <nav aria-label="Breadcrumb" className="t-meta mb-6">
-          <Link className="link" href="/work">
-            Work
-          </Link>
-          <span aria-hidden="true" className="mx-2">
-            /
-          </span>
-          <span>{projectMeta(project)}</span>
-        </nav>
-        <h1 className="t-title max-w-[18ch]">{project.title}</h1>
-        <p className="t-lead mt-6 text-lead">{project.summary}</p>
-        <ul className="mt-6 flex flex-wrap gap-2" aria-label="Disciplines">
-          {project.disciplines.map((d) => (
-            <li key={d}>
-              <Link
-                href={`/work?discipline=${d}`}
-                className="t-meta inline-block border border-line-strong px-2.5 py-1 text-ink hover:border-ink"
-              >
-                {site.disciplineLabels[d]}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </header>
-
       {coverIsSheet ? (
-        <div className="px-[var(--gutter)]">
-          <ZoomFigure
-            figure={project.cover}
-            index={0}
-            sheet
-            priority
-            sizes={coverSizes}
-            className="mx-auto w-full max-w-[1500px]"
-          />
-        </div>
+        <>
+          <header className="px-[var(--gutter)] pt-[calc(var(--header-h)+2.5rem)] pb-10 md:pt-[calc(var(--header-h)+4rem)] md:pb-14">
+            <Breadcrumb project={project} />
+            <h1 className="t-title max-w-[18ch]">{project.title}</h1>
+            <p className="t-lead mt-6 text-lead">{project.summary}</p>
+            <Disciplines project={project} />
+          </header>
+          <div className="px-[var(--gutter)]">
+            <ZoomFigure
+              figure={project.cover}
+              index={0}
+              sheet
+              priority
+              sizes={coverSizes}
+              className="mx-auto w-full max-w-[1500px]"
+            />
+          </div>
+        </>
       ) : (
-        <button
-          type="button"
-          className="zoomable block w-full"
-          data-lightbox={0}
-          aria-label={`${site.ui.lightboxOpen}: ${project.cover.alt}`}
-        >
-          <Picture
-            id={project.cover.id}
-            alt={project.cover.alt}
-            priority
-            sizes={coverSizes}
-          />
-        </button>
+        <header data-hero-dark className="chapter-dark relative h-[92svh] min-h-[560px] max-h-[1000px] overflow-hidden">
+          <div className="hero-settle shade-bottom shade-top absolute inset-0">
+            <Picture id={project.cover.id} alt={project.cover.alt} priority sizes={coverSizes} fill />
+          </div>
+          <div className="relative z-10 flex h-full flex-col justify-end px-[var(--gutter)] pb-[clamp(1.75rem,5vh,3.5rem)]">
+            <Breadcrumb project={project} />
+            <h1 className="t-display max-w-[16ch] text-bone">
+              <span className="line-mask">
+                <span className="line-rise">{project.title}</span>
+              </span>
+            </h1>
+            <div className="fade-in mt-6 flex flex-wrap items-end justify-between gap-6">
+              <div>
+                <p className="t-lead text-bone/85">{project.summary}</p>
+                <Disciplines project={project} />
+              </div>
+              <button type="button" className="btn btn-quiet" data-lightbox={0} aria-label={`${site.ui.lightboxOpen}: ${project.cover.alt}`}>
+                View full image
+              </button>
+            </div>
+          </div>
+        </header>
       )}
 
-      <div className="px-[var(--gutter)] pt-10 pb-16 md:pb-24">
+      <div className="px-[var(--gutter)] pt-12 pb-16 md:pt-16 md:pb-24">
         <ProjectFacts project={project} />
         {project.note && <p className="t-meta mt-6 max-w-[70ch]">{project.note}</p>}
       </div>
@@ -125,7 +145,7 @@ export default async function ProjectPage({ params }: PageProps<"/work/[slug]">)
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
             <p className="t-label">{site.ui.nextProject}</p>
-            <Link href={`/work/${next.slug}`} className="t-heading mt-2 block hover:text-redline">
+            <Link href={`/work/${next.slug}`} className="t-heading mt-2 block hover:text-accent">
               {next.title}
             </Link>
             <p className="t-meta mt-1">{projectMeta(next)}</p>

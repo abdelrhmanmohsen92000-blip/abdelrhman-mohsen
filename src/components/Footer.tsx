@@ -5,8 +5,8 @@ import { withBase } from "@/lib/media";
 export function Footer() {
   const { person, contact, nav, ui } = site;
   return (
-    <footer className="no-print mt-24 border-t border-line-strong px-[var(--gutter)] pt-10 pb-12">
-      <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="chapter-dark no-print px-[var(--gutter)] pt-14 pb-10">
+      <div className="grid gap-10 border-t border-line pt-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <p className="t-subheading">{person.name}</p>
           <p className="t-meta mt-1">{person.role}</p>
@@ -37,6 +37,13 @@ export function Footer() {
                 {contact.email}
               </a>
             </li>
+            {contact.showPhone && (
+              <li>
+                <a className="link" href={contact.whatsapp} target="_blank" rel="noopener noreferrer">
+                  WhatsApp {contact.phone}
+                </a>
+              </li>
+            )}
             <li>
               <a className="link" href={contact.linkedin} target="_blank" rel="noopener noreferrer">
                 LinkedIn

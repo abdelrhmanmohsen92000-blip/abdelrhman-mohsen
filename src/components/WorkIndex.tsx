@@ -146,7 +146,7 @@ export function WorkIndex({
                   onPointerEnter={() => setHovered(e.slug)}
                 >
                   <td className="py-3 pe-4">
-                    <Link href={`/work/${e.slug}`} className="font-medium after:absolute after:inset-0 hover:text-redline" onFocus={() => setHovered(null)}>
+                    <Link href={`/work/${e.slug}`} className="font-medium after:absolute after:inset-0 hover:text-accent" onFocus={() => setHovered(null)}>
                       {e.title}
                     </Link>
                   </td>

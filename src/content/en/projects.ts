@@ -4,12 +4,158 @@ import type { Figure, Project } from "../types";
 // locations, areas), title blocks on the drawings themselves, or the Upwork-Ready project
 // notes in D:/por/Designs/Upwork-Ready/00-form-text.md (roles and scope). Where a source
 // does not give a field, the field is left out rather than guessed.
-// Exception, by Abdelrhman's instruction (22 Oct 2026): projects without a documented year
-// show 2025. Correct individual years here when known.
+// Years appear only where a source documents them (Abdelrhman, 22 Oct 2026: leave uncertain
+// dates unpublished until verified).
 
 const f = (id: string, alt: string, caption?: string): Figure => ({ id, alt, caption });
 
 export const projects: Project[] = [
+  {
+    slug: "lamar-business-park",
+    title: "Lamar Business Park",
+    summary:
+      "A 30,000 m² mixed-use business park: master planning, BIM documentation, facade design and visualization for offices over ground-floor shops.",
+    disciplines: ["architecture", "bim", "exterior", "visualization"],
+    type: "Mixed-use administrative and commercial park",
+    area: "30,000 m²",
+    role: "Urban master planning, BIM documentation, facade design and visualization",
+    scope: [
+      "Master plan and site circulation",
+      "BIM documentation and construction-ready packages",
+      "Facade systems",
+      "Full municipal licensing drawings",
+      "3D model and street, corner and frontage renders",
+    ],
+    note: "Listed on my CV as Lamar Gate.",
+    cover: f(
+      "lamar-business-park/street-wide",
+      "Street view of a row of three-storey office buildings with framed window bays, dark cladding, shopfronts and a landscaped verge.",
+    ),
+    featured: true,
+    published: true,
+    story: [
+      {
+        type: "text",
+        heading: "Brief",
+        body: [
+          "A 30,000 m² mixed-use administrative hub, built as a multi-building business park with retail on the ground floor, offices above and planted roofs. The park needed a facade language strong enough to give it an identity from the road, but flexible enough to repeat across several buildings.",
+          "I led the urban master planning and the BIM documentation: site circulation, facade systems, construction-ready packages and the full set of municipal licensing drawings. I also developed the facade concept, modelled the buildings and their surroundings, and produced the renders shown here.",
+        ],
+      },
+      {
+        type: "figure",
+        size: "full",
+        figure: f(
+          "lamar-business-park/frontage",
+          "Frontal view of the buildings with the Lamar Business Park sign on a planted wall.",
+          "Frontage along the main road.",
+        ),
+      },
+      {
+        type: "text",
+        heading: "Facade",
+        body: [
+          "Each bay is a deep-set opening framed in light cladding and set against darker panels. The frames do the work: they give the elevations depth and shadow, and they turn a long, repetitive office block into a sequence of readable units. Glazed shopfronts and a landscaped verge keep the street level open.",
+        ],
+      },
+      {
+        type: "pair",
+        figures: [
+          f("lamar-business-park/street-angle", "Angled street view showing framed bays and glazed corners.", "Street view."),
+          f("lamar-business-park/corner", "Close view of a curved building corner with building numbers B04 and B05 and planted roof edge.", "Corner and roof planting."),
+        ],
+      },
+      {
+        type: "figure",
+        size: "wide",
+        figure: f(
+          "lamar-business-park/full-frontage",
+          "Long, straight-on view of the full row of buildings and the park sign.",
+          "The full frontage.",
+        ),
+      },
+    ],
+  },
+
+  {
+    slug: "buraydah-town-houses",
+    title: "Buraydah Town Houses",
+    summary:
+      "Revit model and full architectural drawing set for a row of six townhouses in Buraydah, Saudi Arabia, for Forma Atelier Architectural Office.",
+    disciplines: ["bim", "architecture"],
+    type: "Residential townhouses",
+    location: "Buraydah, Saudi Arabia",
+    year: "2026",
+    consultant: "Forma Atelier Architectural Office",
+    role: "Revit modelling and the complete architectural drawing set",
+    scope: [
+      "Site plan and unit zoning",
+      "Overall and furniture plans for every level",
+      "Four elevations and building sections",
+      "Reflected ceiling plans",
+      "Staircase and wet area details by unit type",
+      "3D floor plans",
+    ],
+    tools: ["Revit"],
+    cover: f(
+      "buraydah-town-houses/cover-render",
+      "Terracotta-coloured townhouse with deep rounded volumes, palms in planters and a car passing in the street.",
+    ),
+    featured: true,
+    published: true,
+    // Role confirmed by Abdelrhman on 22 Oct 2026. Set dated 10 Oct 2026, 52 sheets.
+    story: [
+      {
+        type: "text",
+        heading: "The set",
+        body: [
+          "Six townhouses in a single row, planned as four unit types (T01 and T04, T02 and T05, T03, T06) over ground, first and roof floors, with parking, courtyards and roof terraces worked into the block.",
+          "I modelled the houses in Revit and produced the full 52-sheet architectural set: site plan and zoning, overall and furniture plans for every level, elevations, sections, ceiling plans, facade callouts, and staircase and wet area details for each unit type.",
+        ],
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("buraydah-town-houses/site-plan", "Site plan with the townhouse roofs, parking bays and area tables.", "Site plan."),
+          f(
+            "buraydah-town-houses/zoning",
+            "Colour-coded zoning of the six townhouses on each floor, with a legend of unit areas.",
+            "Unit zoning by floor, types T01 to T06, with areas per floor.",
+          ),
+        ],
+      },
+      {
+        type: "figure",
+        size: "sheet",
+        figure: f("buraydah-town-houses/first-floor", "Overall first floor plan of the townhouse row with grids and dimensions.", "First floor plan, overall."),
+      },
+      {
+        type: "text",
+        heading: "Reading the plan in 3D",
+        body: [
+          "Alongside the conventional plans, the set includes 3D floor plans cut from the same model, so the way rooms, stairs and parking stack up can be read at a glance.",
+        ],
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("buraydah-town-houses/ground-3d", "3D cutaway plan of the ground floor with cars and furniture.", "Ground floor 3D plan."),
+          f("buraydah-town-houses/first-3d", "3D cutaway plan of the first floor.", "First floor 3D plan."),
+        ],
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("buraydah-town-houses/section", "Long section through the townhouses showing stairs and floor levels.", "Section A-A."),
+          f("buraydah-town-houses/stair", "Stair plans, section and 3D views for unit type T03.", "Stair details, type T03."),
+        ],
+      },
+    ],
+  },
+
   {
     slug: "supply-administration-building",
     title: "Supply Administration Building",
@@ -118,234 +264,6 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "buraydah-town-houses",
-    title: "Buraydah Town Houses",
-    summary:
-      "Revit model and full architectural drawing set for a row of six townhouses in Buraydah, Saudi Arabia, for Forma Atelier Architectural Office.",
-    disciplines: ["bim", "architecture"],
-    type: "Residential townhouses",
-    location: "Buraydah, Saudi Arabia",
-    year: "2026",
-    consultant: "Forma Atelier Architectural Office",
-    role: "Revit modelling and the complete architectural drawing set",
-    scope: [
-      "Site plan and unit zoning",
-      "Overall and furniture plans for every level",
-      "Four elevations and building sections",
-      "Reflected ceiling plans",
-      "Staircase and wet area details by unit type",
-      "3D floor plans",
-    ],
-    tools: ["Revit"],
-    cover: f(
-      "buraydah-town-houses/cover-render",
-      "Terracotta-coloured townhouse with deep rounded volumes, palms in planters and a car passing in the street.",
-    ),
-    featured: true,
-    published: true,
-    // Role confirmed by Abdelrhman on 22 Oct 2026. Set dated 10 Oct 2026, 52 sheets.
-    story: [
-      {
-        type: "text",
-        heading: "The set",
-        body: [
-          "Six townhouses in a single row, planned as four unit types (T01 and T04, T02 and T05, T03, T06) over ground, first and roof floors, with parking, courtyards and roof terraces worked into the block.",
-          "I modelled the houses in Revit and produced the full 52-sheet architectural set: site plan and zoning, overall and furniture plans for every level, elevations, sections, ceiling plans, facade callouts, and staircase and wet area details for each unit type.",
-        ],
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("buraydah-town-houses/site-plan", "Site plan with the townhouse roofs, parking bays and area tables.", "Site plan."),
-          f(
-            "buraydah-town-houses/zoning",
-            "Colour-coded zoning of the six townhouses on each floor, with a legend of unit areas.",
-            "Unit zoning by floor, types T01 to T06, with areas per floor.",
-          ),
-        ],
-      },
-      {
-        type: "figure",
-        size: "sheet",
-        figure: f("buraydah-town-houses/first-floor", "Overall first floor plan of the townhouse row with grids and dimensions.", "First floor plan, overall."),
-      },
-      {
-        type: "text",
-        heading: "Reading the plan in 3D",
-        body: [
-          "Alongside the conventional plans, the set includes 3D floor plans cut from the same model, so the way rooms, stairs and parking stack up can be read at a glance.",
-        ],
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("buraydah-town-houses/ground-3d", "3D cutaway plan of the ground floor with cars and furniture.", "Ground floor 3D plan."),
-          f("buraydah-town-houses/first-3d", "3D cutaway plan of the first floor.", "First floor 3D plan."),
-        ],
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("buraydah-town-houses/section", "Long section through the townhouses showing stairs and floor levels.", "Section A-A."),
-          f("buraydah-town-houses/stair", "Stair plans, section and 3D views for unit type T03.", "Stair details, type T03."),
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "lamar-business-park",
-    title: "Lamar Business Park",
-    summary:
-      "A 30,000 m² mixed-use business park: master planning, BIM documentation, facade design and visualization for offices over ground-floor shops.",
-    disciplines: ["architecture", "bim", "exterior", "visualization"],
-    type: "Mixed-use administrative and commercial park",
-    year: "2025",
-    area: "30,000 m²",
-    role: "Urban master planning, BIM documentation, facade design and visualization",
-    scope: [
-      "Master plan and site circulation",
-      "BIM documentation and construction-ready packages",
-      "Facade systems",
-      "Full municipal licensing drawings",
-      "3D model and street, corner and frontage renders",
-    ],
-    note: "Listed on my CV as Lamar Gate.",
-    cover: f(
-      "lamar-business-park/street-wide",
-      "Street view of a row of three-storey office buildings with framed window bays, dark cladding, shopfronts and a landscaped verge.",
-    ),
-    featured: true,
-    published: true,
-    story: [
-      {
-        type: "text",
-        heading: "Brief",
-        body: [
-          "A 30,000 m² mixed-use administrative hub, built as a multi-building business park with retail on the ground floor, offices above and planted roofs. The park needed a facade language strong enough to give it an identity from the road, but flexible enough to repeat across several buildings.",
-          "I led the urban master planning and the BIM documentation: site circulation, facade systems, construction-ready packages and the full set of municipal licensing drawings. I also developed the facade concept, modelled the buildings and their surroundings, and produced the renders shown here.",
-        ],
-      },
-      {
-        type: "figure",
-        size: "full",
-        figure: f(
-          "lamar-business-park/frontage",
-          "Frontal view of the buildings with the Lamar Business Park sign on a planted wall.",
-          "Frontage along the main road.",
-        ),
-      },
-      {
-        type: "text",
-        heading: "Facade",
-        body: [
-          "Each bay is a deep-set opening framed in light cladding and set against darker panels. The frames do the work: they give the elevations depth and shadow, and they turn a long, repetitive office block into a sequence of readable units. Glazed shopfronts and a landscaped verge keep the street level open.",
-        ],
-      },
-      {
-        type: "pair",
-        figures: [
-          f("lamar-business-park/street-angle", "Angled street view showing framed bays and glazed corners.", "Street view."),
-          f("lamar-business-park/corner", "Close view of a curved building corner with building numbers B04 and B05 and planted roof edge.", "Corner and roof planting."),
-        ],
-      },
-      {
-        type: "figure",
-        size: "wide",
-        figure: f(
-          "lamar-business-park/full-frontage",
-          "Long, straight-on view of the full row of buildings and the park sign.",
-          "The full frontage.",
-        ),
-      },
-    ],
-  },
-
-  {
-    slug: "private-villa-corner-plot",
-    title: "Private Villa on a Corner Plot",
-    summary:
-      "A modern private villa designed and documented from one Revit model: plans, elevations, sections, an exploded axonometric and cutaway views.",
-    disciplines: ["architecture", "bim"],
-    type: "Private residence",
-    year: "2025",
-    role: "Concept design, Revit modelling and construction documentation",
-    scope: [
-      "Concept and massing",
-      "Layout and facade design",
-      "Revit model including furniture",
-      "Plans, elevations and sections",
-      "Exploded axonometric and cutaway 3D views",
-    ],
-    tools: ["Revit"],
-    cover: f(
-      "corner-villa/cutaway",
-      "Cutaway Revit axonometric of a three-storey villa showing furnished rooms on every floor and a car in the garage.",
-    ),
-    coverStyle: "sheet",
-    featured: true,
-    published: true,
-    story: [
-      {
-        type: "text",
-        heading: "The plot",
-        body: [
-          "The villa sits on an irregular corner plot: one boundary runs at an angle, leaving a triangle of land along the side. Rather than bend the house to follow it, the plan keeps a compact, rectangular footprint and gives the leftover geometry to garden and parking.",
-        ],
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("corner-villa/plan-ground", "Ground floor plan on the angled plot with the garden shaded green and parking bays.", "Ground floor plan."),
-          f("corner-villa/plan-first", "First floor plan showing bedrooms and the plot limit in red.", "First floor plan."),
-        ],
-      },
-      {
-        type: "text",
-        heading: "One model, every drawing",
-        body: [
-          "Everything on this page comes from a single Revit model, from zoning and room layout to levels, openings and facade materials. The exploded axonometric and the cutaways are not separate illustrations: they are views of the same model that produces the plans and sections, so they always agree.",
-        ],
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("corner-villa/exploded", "Exploded axonometric separating the villa’s floors to show each furnished level.", "Exploded axonometric, floor by floor."),
-          f("corner-villa/model", "Hidden-line 3D view of the villa from the street corner.", "The model from the street corner."),
-        ],
-      },
-      {
-        type: "figure",
-        size: "sheet",
-        figure: f("corner-villa/elevation-front", "Front elevation with tall vertical windows and the entrance, with level markers.", "Front elevation."),
-      },
-      {
-        type: "figure",
-        size: "sheet",
-        figure: f("corner-villa/elevation-rear", "Rear elevation with glazing and the stepped roofline.", "Rear elevation."),
-      },
-      {
-        type: "pair",
-        sheet: true,
-        figures: [
-          f("corner-villa/section", "Building section through the stair with floor levels.", "Section through the stair."),
-          f("corner-villa/section-2", "Second building section showing room heights and the glazed living space.", "Cross section."),
-        ],
-      },
-      {
-        type: "figure",
-        size: "sheet",
-        figure: f("corner-villa/cutaway-garden", "Cutaway 3D view from the garden side showing furnished interiors.", "Cutaway from the garden side."),
-      },
-    ],
-  },
-
-  {
     slug: "estraha-rest-house",
     title: "Estraha Rest House",
     summary:
@@ -353,7 +271,6 @@ export const projects: Project[] = [
     disciplines: ["landscape", "exterior", "visualization"],
     type: "Private rest house (estraha)",
     location: "Saudi Arabia",
-    year: "2025",
     area: "350 m²",
     role: "Design, 3D modelling and rendering of the outdoor spaces",
     cover: f(
@@ -399,7 +316,6 @@ export const projects: Project[] = [
       "A living room and bedroom in a calm Moroccan-inspired language: carved arch panels, textured wall relief, soft curved furniture and a warm neutral palette.",
     disciplines: ["interior", "visualization"],
     type: "Residential interior",
-    year: "2025",
     role: "Interior concept, 3D modelling, lighting and rendering",
     tools: ["3ds Max"],
     cover: f(
@@ -427,6 +343,147 @@ export const projects: Project[] = [
         type: "figure",
         size: "wide",
         figure: f("moroccan-living/bedroom", "Bedroom with an upholstered bed, an arched headboard niche and pendant lights.", "Bedroom."),
+      },
+    ],
+  },
+
+  {
+    slug: "private-villa-corner-plot",
+    title: "Private Villa on a Corner Plot",
+    summary:
+      "A modern private villa designed and documented from one Revit model: plans, elevations, sections, an exploded axonometric and cutaway views.",
+    disciplines: ["architecture", "bim"],
+    type: "Private residence",
+    role: "Concept design, Revit modelling and construction documentation",
+    scope: [
+      "Concept and massing",
+      "Layout and facade design",
+      "Revit model including furniture",
+      "Plans, elevations and sections",
+      "Exploded axonometric and cutaway 3D views",
+    ],
+    tools: ["Revit"],
+    cover: f(
+      "corner-villa/cutaway",
+      "Cutaway Revit axonometric of a three-storey villa showing furnished rooms on every floor and a car in the garage.",
+    ),
+    coverStyle: "sheet",
+    featured: true,
+    published: true,
+    story: [
+      {
+        type: "text",
+        heading: "The plot",
+        body: [
+          "The villa sits on an irregular corner plot: one boundary runs at an angle, leaving a triangle of land along the side. Rather than bend the house to follow it, the plan keeps a compact, rectangular footprint and gives the leftover geometry to garden and parking.",
+        ],
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("corner-villa/plan-ground", "Ground floor plan on the angled plot with the garden shaded green and parking bays.", "Ground floor plan."),
+          f("corner-villa/plan-first", "First floor plan showing bedrooms and the plot limit in red.", "First floor plan."),
+        ],
+      },
+      {
+        type: "figure",
+        size: "sheet",
+        figure: f("corner-villa/plan-upper", "Upper floor plan of the villa within the angled plot limit.", "Upper floor plan."),
+      },
+      {
+        type: "text",
+        heading: "One model, every drawing",
+        body: [
+          "Everything on this page comes from a single Revit model, from zoning and room layout to levels, openings and facade materials. The exploded axonometric and the cutaways are not separate illustrations: they are views of the same model that produces the plans and sections, so they always agree.",
+        ],
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("corner-villa/exploded", "Exploded axonometric separating the villa’s floors to show each furnished level.", "Exploded axonometric, floor by floor."),
+          f("corner-villa/model", "Hidden-line 3D view of the villa from the street corner.", "The model from the street corner."),
+        ],
+      },
+      {
+        type: "figure",
+        size: "sheet",
+        figure: f("corner-villa/elevation-front", "Front elevation with tall vertical windows and the entrance, with level markers.", "Front elevation."),
+      },
+      {
+        type: "figure",
+        size: "sheet",
+        figure: f("corner-villa/elevation-rear", "Rear elevation with glazing and the stepped roofline.", "Rear elevation."),
+      },
+      {
+        type: "pair",
+        sheet: true,
+        figures: [
+          f("corner-villa/section", "Building section through the stair with floor levels.", "Section through the stair."),
+          f("corner-villa/section-2", "Second building section showing room heights and the glazed living space.", "Cross section."),
+        ],
+      },
+      {
+        type: "figure",
+        size: "sheet",
+        figure: f("corner-villa/cutaway-garden", "Cutaway 3D view from the garden side showing furnished interiors.", "Cutaway from the garden side."),
+      },
+    ],
+  },
+
+  {
+    slug: "m3mar-villa",
+    title: "M3MAR Villa",
+    summary:
+      "A 600 m² classical villa in Qatar with tall arched windows, a columned portico and a boundary wall that repeats its arches.",
+    disciplines: ["exterior", "visualization"],
+    type: "Private villa, classical style",
+    location: "Qatar",
+    area: "600 m²",
+    role: "Exterior design and visualization",
+    cover: f(
+      "m3mar-villa/day",
+      "White two-storey classical villa with tall arched windows, a columned portico, balustrades and a boundary wall, a yellow car in front.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "text",
+        heading: "Classical, in proportion",
+        body: [
+          "A classical facade lives or dies on proportion: tall arched openings on the ground floor, a columned portico at the entrance, balustrades and cornices that finish each level. The boundary wall repeats the same arches, so the house and its enclosure read as one composition.",
+        ],
+      },
+      {
+        type: "figure",
+        size: "full",
+        figure: f(
+          "m3mar-villa/corner",
+          "The villa from the street corner: arched windows, the columned balcony and the boundary wall, with a car parked in front.",
+          "From the street corner.",
+        ),
+      },
+    ],
+  },
+
+  {
+    slug: "courtyard-water-feature",
+    title: "Courtyard with Water Feature",
+    summary: "An Arabic-inspired courtyard with a reflecting pool and stepping stones, and a garden court with arched openings.",
+    disciplines: ["landscape", "exterior", "visualization"],
+    type: "Villa courtyard",
+    role: "Design, 3D modelling and rendering",
+    cover: f(
+      "courtyard/water-court",
+      "Covered courtyard with a reflecting pool, stepping stones, arched niches and potted plants.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "figure",
+        size: "wide",
+        figure: f("courtyard/garden-court", "Garden court with round stepping stones on lawn, arched openings and a stair.", "Garden court."),
       },
     ],
   },
@@ -486,37 +543,65 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "m3mar-villa",
-    title: "M3MAR Villa",
+    slug: "villa-garden",
+    title: "Villa Garden",
     summary:
-      "A 600 m² classical villa in Qatar with arched windows, a columned portico and facade lighting, rendered by day and by night.",
-    disciplines: ["exterior", "visualization"],
-    type: "Private villa, classical style",
-    location: "Qatar",
-    year: "2025",
-    area: "600 m²",
-    role: "Exterior design and visualization",
+      "A compact 50 m² villa garden in Saudi Arabia: a dark water basin, raised planting and timber decking around outdoor seating.",
+    disciplines: ["landscape", "visualization"],
+    type: "Private garden",
+    location: "Saudi Arabia",
+    area: "50 m²",
+    role: "Landscape design and visualization",
     cover: f(
-      "m3mar-villa/day",
-      "White two-storey classical villa with tall arched windows, a columned portico, balustrades and a boundary wall, a yellow car in front.",
+      "villa-garden/water-basin",
+      "Garden with a dark rippled water basin, trees in planters and woven outdoor chairs.",
     ),
     published: true,
     story: [
       {
         type: "text",
-        heading: "Classical, in proportion",
+        heading: "Small plot, several rooms",
         body: [
-          "A classical facade lives or dies on proportion: tall arched openings on the ground floor, a columned portico at the entrance, balustrades and cornices that finish each level. The boundary wall repeats the same arches, so the house and its enclosure read as one composition.",
+          "Fifty square metres is not much, so the garden is divided into distinct places: a water basin as the centre, raised planters that give height and shade, and a strip of timber decking with built-in seating along the house.",
         ],
       },
       {
-        type: "figure",
-        size: "full",
-        figure: f(
-          "m3mar-villa/night",
-          "The same villa at dusk with uplighting along the facade and warm light in the windows.",
-          "At night, the lighting traces the cornices and the arches.",
-        ),
+        type: "pair",
+        figures: [
+          f("villa-garden/water-basin-2", "Water basin with a narrow channel running from a planter, a sports car parked beyond.", "The basin and its channel."),
+          f("villa-garden/overview", "High view over the basin, planters and seating.", "From above."),
+        ],
+      },
+      {
+        type: "pair",
+        figures: [
+          f("villa-garden/side-yard", "Narrow side yard with timber decking, built-in seating and a small tree.", "Side yard."),
+          f("villa-garden/side-yard-2", "Second view of the side yard looking along the decking.", "Side yard, looking back."),
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "yasser-villa-master-suite",
+    title: "Yasser Villa Master Suite",
+    summary: "A modern master suite in Saudi Arabia: vertical timber slats, stone panels and a low upholstered bed in a warm neutral palette.",
+    disciplines: ["interior", "visualization"],
+    type: "Residential interior",
+    location: "Saudi Arabia",
+    role: "Interior design and visualization",
+    cover: f(
+      "yasser-villa/master-suite",
+      "Master bedroom with full-height vertical timber slats, a low cream bed, a lounge chair and sheer curtains.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "text",
+        heading: "Rhythm and restraint",
+        body: [
+          "The room is built from one idea, a wall of vertical timber slats that wraps the bed and continues across the room, with stone panels and soft textiles keeping it calm.",
+        ],
       },
     ],
   },
@@ -528,7 +613,6 @@ export const projects: Project[] = [
       "Classical residential facades taken from rendered concept to a dimensioned shop drawing with cladding zones, arches, columns, cornices and lighting.",
     disciplines: ["exterior", "bim", "visualization"],
     type: "Facade design and detailing",
-    year: "2025",
     role: "Facade design, detailing and 3D visualization",
     cover: f(
       "classical-facades/shop-drawing-sheet",
@@ -585,47 +669,6 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "villa-garden",
-    title: "Villa Garden",
-    summary:
-      "A compact 50 m² villa garden in Saudi Arabia: a dark water basin, raised planting and timber decking around outdoor seating.",
-    disciplines: ["landscape", "visualization"],
-    type: "Private garden",
-    location: "Saudi Arabia",
-    year: "2025",
-    area: "50 m²",
-    role: "Landscape design and visualization",
-    cover: f(
-      "villa-garden/water-basin",
-      "Garden with a dark rippled water basin, trees in planters and woven outdoor chairs.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "text",
-        heading: "Small plot, several rooms",
-        body: [
-          "Fifty square metres is not much, so the garden is divided into distinct places: a water basin as the centre, raised planters that give height and shade, and a strip of timber decking with built-in seating along the house.",
-        ],
-      },
-      {
-        type: "pair",
-        figures: [
-          f("villa-garden/water-basin-2", "Water basin with a narrow channel running from a planter, a sports car parked beyond.", "The basin and its channel."),
-          f("villa-garden/overview", "High view over the basin, planters and seating.", "From above."),
-        ],
-      },
-      {
-        type: "pair",
-        figures: [
-          f("villa-garden/side-yard", "Narrow side yard with timber decking, built-in seating and a small tree.", "Side yard."),
-          f("villa-garden/side-yard-2", "Second view of the side yard looking along the decking.", "Side yard, looking back."),
-        ],
-      },
-    ],
-  },
-
-  {
     slug: "square-business-hub",
     title: "Square Business Hub",
     summary:
@@ -661,7 +704,6 @@ export const projects: Project[] = [
     disciplines: ["exterior", "visualization", "landscape"],
     type: "Commercial frontage and public realm",
     location: "New Damietta, Egypt",
-    year: "2025",
     role: "Facade design and visualization",
     cover: f(
       "commercial-promenade/plaza",
@@ -692,269 +734,6 @@ export const projects: Project[] = [
         type: "figure",
         size: "wide",
         figure: f("commercial-promenade/aerial-2", "Second aerial view of the promenade and its seating areas.", "Seating terraces along the route."),
-      },
-    ],
-  },
-
-  {
-    slug: "yasser-villa-master-suite",
-    title: "Yasser Villa Master Suite",
-    summary: "A modern master suite in Saudi Arabia: vertical timber slats, stone panels and a low upholstered bed in a warm neutral palette.",
-    disciplines: ["interior", "visualization"],
-    type: "Residential interior",
-    location: "Saudi Arabia",
-    year: "2025",
-    role: "Interior design and visualization",
-    cover: f(
-      "yasser-villa/master-suite",
-      "Master bedroom with full-height vertical timber slats, a low cream bed, a lounge chair and sheer curtains.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "text",
-        heading: "Rhythm and restraint",
-        body: [
-          "The room is built from one idea, a wall of vertical timber slats that wraps the bed and continues across the room, with stone panels and soft textiles keeping it calm.",
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "sara-dining-room",
-    title: "Sara Dining Room",
-    summary: "A neo-classical dining room with panelled walls, layered ring pendants and upholstered chairs in sage and grey.",
-    disciplines: ["interior", "visualization"],
-    type: "Residential interior, neo-classical",
-    year: "2025",
-    role: "Interior design and visualization",
-    cover: f(
-      "sara-dining/dining",
-      "Dining room with a marble table, green and grey upholstered chairs, a ring chandelier and framed bird prints on a panelled wall.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "pair",
-        figures: [
-          f("sara-dining/dining-2", "Dining table under a gold ring chandelier, panelled walls and a doorway beyond.", "Toward the doorway."),
-          f("sara-dining/dining-3", "Dining room viewed from the side with a fireplace beyond.", "From the side."),
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "majlis",
-    title: "Majlis",
-    summary: "A formal majlis with fluted wall panels, a sculpted wing centrepiece and low sofas around a set of round tables.",
-    disciplines: ["interior", "visualization"],
-    type: "Residential interior, reception room",
-    year: "2025",
-    role: "Interior design and visualization",
-    cover: f(
-      "majlis/majlis",
-      "Majlis with fluted timber panels, a white sculpted wing wall piece, cream sofas with green cushions and round coffee tables.",
-    ),
-    published: true,
-    story: [],
-  },
-
-  {
-    slug: "classical-villa-qatar",
-    title: "Classical Villa, Qatar",
-    summary: "An 800 m² villa in Qatar in a French classical manner: mansard roofs, dormer windows and timber gates.",
-    disciplines: ["exterior", "visualization"],
-    type: "Private villa, classical style",
-    location: "Qatar",
-    year: "2025",
-    area: "800 m²",
-    role: "Exterior design and visualization",
-    cover: f(
-      "qatar-classical-villa/street",
-      "Beige stone villa with steep mansard roofs and dormers behind a boundary wall with timber gates.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "pair",
-        figures: [
-          f("qatar-classical-villa/angle", "Angled view of the villa’s roofline and dormers.", "Roofline and dormers."),
-          f("qatar-classical-villa/front", "Front of the villa with timber gates in the boundary wall.", "Street front."),
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "contemporary-residential",
-    title: "Contemporary Residential",
-    summary: "Contemporary houses and apartment buildings: Villa 108 in Saudi Arabia, a compound unit in Egypt and a mixed-use building.",
-    disciplines: ["exterior", "visualization"],
-    type: "Selected residential exteriors",
-    year: "2025",
-    role: "Exterior design and visualization",
-    cover: f(
-      "contemporary-residential/villa-108",
-      "Contemporary villa with grey render, timber slat screens and planted balconies, the name Villa 108 on the wall.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "figure",
-        size: "wide",
-        figure: f(
-          "contemporary-residential/villa-108-front",
-          "Straight-on view of Villa 108 showing the slatted screens and recessed balconies.",
-          "Villa 108, Saudi Arabia.",
-        ),
-      },
-      {
-        type: "pair",
-        figures: [
-          f("contemporary-residential/compound-unit", "Low-rise apartment building with white balconies behind a timber deck and lawn.", "Compound unit, Egypt."),
-          f("contemporary-residential/mixed-use", "Corner apartment building with dark and white volumes and planted balconies.", "Mixed-use residential building."),
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "contemporary-villas-qatar",
-    title: "Contemporary Villas, Qatar",
-    summary: "A row of 400 m² contemporary villas in Qatar with white volumes, tall slot windows and a planted street edge.",
-    disciplines: ["exterior", "visualization"],
-    type: "Private villas",
-    location: "Qatar",
-    year: "2025",
-    area: "400 m²",
-    role: "Exterior design and visualization",
-    cover: f(
-      "qatar-contemporary-villas/street",
-      "Three identical white contemporary villas with tall dark windows behind a low wall and trees.",
-    ),
-    published: true,
-    story: [],
-  },
-
-  {
-    slug: "mall-new-damietta",
-    title: "Mall, New Damietta",
-    summary: "Night renders of a 400 m² mall frontage in New Damietta: patterned perforated screens framed in warm-lit bronze panels.",
-    disciplines: ["exterior", "visualization"],
-    type: "Retail",
-    location: "New Damietta, Egypt",
-    year: "2025",
-    area: "400 m²",
-    role: "Facade design and visualization",
-    cover: f(
-      "mall-new-damietta/night",
-      "Symmetrical mall facade at night with patterned perforated screens, bronze frames and warm uplighting.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "figure",
-        size: "wide",
-        figure: f("mall-new-damietta/night-2", "The mall facade from a lower angle at night with palms in front.", "Approach at night."),
-      },
-    ],
-  },
-
-  {
-    slug: "master-plan-egypt",
-    title: "Master Plan, Egypt",
-    summary: "A 50,000 m² master plan organised around a circular central building, water features and landscaped routes.",
-    disciplines: ["architecture", "landscape"],
-    type: "Master plan",
-    location: "Egypt",
-    year: "2025",
-    area: "50,000 m²",
-    role: "Master planning and visualization",
-    cover: f(
-      "master-plan-egypt/aerial",
-      "Aerial render of a large master plan with a ring-shaped building, blue water channels and landscaped paths.",
-    ),
-    published: true,
-    story: [],
-  },
-
-  {
-    slug: "courtyard-water-feature",
-    title: "Courtyard with Water Feature",
-    summary: "An Arabic-inspired courtyard with a reflecting pool and stepping stones, and a garden court with arched openings.",
-    disciplines: ["landscape", "exterior", "visualization"],
-    type: "Villa courtyard",
-    year: "2025",
-    role: "Design, 3D modelling and rendering",
-    cover: f(
-      "courtyard/water-court",
-      "Covered courtyard with a reflecting pool, stepping stones, arched niches and potted plants.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "figure",
-        size: "wide",
-        figure: f("courtyard/garden-court", "Garden court with round stepping stones on lawn, arched openings and a stair.", "Garden court."),
-      },
-    ],
-  },
-
-  {
-    slug: "residential-interiors",
-    title: "Residential Interiors",
-    summary: "Living rooms, bedrooms, a kitchen and a children’s room: warm neutral palettes, timber, stone and controlled lighting.",
-    disciplines: ["interior", "visualization"],
-    type: "Selected residential interiors",
-    year: "2025",
-    role: "Interior design and visualization",
-    cover: f(
-      "residential-interiors/living-light",
-      "Bright living room with a long cream sofa, timber wall panels with shelving and large windows.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "grid",
-        figures: [
-          f("residential-interiors/bedroom-rings", "Bedroom with timber panelling and gold ring wall lights.", "Bedroom."),
-          f("residential-interiors/living-beige", "Living room with curved sofas and a timber feature wall.", "Living room."),
-          f("residential-interiors/bedroom-mirror", "Bedroom with slatted headboard wall and round mirror.", "Bedroom with dressing table."),
-          f("residential-interiors/living-sculpture", "Living room with a sculptural armchair and abstract art.", "Reading corner."),
-          f("residential-interiors/living-fireplace", "Living room with a long linear fireplace and grey sofas.", "Living room with fireplace."),
-          f("residential-interiors/kitchen", "L-shaped white kitchen with timber slats and a stone-look floor.", "Kitchen."),
-          f("residential-interiors/childrens-room", "Children’s room with a moon-and-star theme and a play area.", "Children’s room."),
-          f("residential-interiors/vanity", "Double vanity in stone with timber surround and backlighting.", "Vanity."),
-          f("residential-interiors/coffee-table", "Close-up of books, a candle lantern and a clock on a coffee table.", "Detail."),
-        ],
-      },
-    ],
-  },
-
-  {
-    slug: "commercial-interiors",
-    title: "Commercial Interiors",
-    summary: "A café counter, a boutique, offices and a meeting room: workplaces and shops with a clear material identity.",
-    disciplines: ["interior", "visualization"],
-    type: "Selected commercial interiors",
-    year: "2025",
-    role: "Interior design and visualization",
-    cover: f(
-      "commercial-interiors/cafe",
-      "Café counter with terrazzo front, open timber shelving and a branded sign above.",
-    ),
-    published: true,
-    story: [
-      {
-        type: "grid",
-        figures: [
-          f("commercial-interiors/boutique", "Boutique with arched display niches and lit shelving.", "Boutique."),
-          f("commercial-interiors/sales-office", "Sales office with timber shelving and four desks.", "Sales office."),
-          f("commercial-interiors/meeting-room", "Meeting room with a long table and a planter running down its centre.", "Meeting room."),
-          f("commercial-interiors/reception", "Reception desk in stone with a curved chair and marble wall.", "Reception."),
-        ],
       },
     ],
   },
@@ -1012,6 +791,213 @@ export const projects: Project[] = [
         type: "figure",
         size: "sheet",
         figure: f("kaitech-diploma/shadow", "Shadow study at six times of day on 21 July.", "Shadow study, 21 July."),
+      },
+    ],
+  },
+
+  {
+    slug: "sara-dining-room",
+    title: "Sara Dining Room",
+    summary: "A neo-classical dining room with panelled walls, layered ring pendants and upholstered chairs in sage and grey.",
+    disciplines: ["interior", "visualization"],
+    type: "Residential interior, neo-classical",
+    role: "Interior design and visualization",
+    cover: f(
+      "sara-dining/dining",
+      "Dining room with a marble table, green and grey upholstered chairs, a ring chandelier and framed bird prints on a panelled wall.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "pair",
+        figures: [
+          f("sara-dining/dining-2", "Dining table under a gold ring chandelier, panelled walls and a doorway beyond.", "Toward the doorway."),
+          f("sara-dining/dining-3", "Dining room viewed from the side with a fireplace beyond.", "From the side."),
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "majlis",
+    title: "Majlis",
+    summary: "A formal majlis with fluted wall panels, a sculpted wing centrepiece and low sofas around a set of round tables.",
+    disciplines: ["interior", "visualization"],
+    type: "Residential interior, reception room",
+    role: "Interior design and visualization",
+    cover: f(
+      "majlis/majlis",
+      "Majlis with fluted timber panels, a white sculpted wing wall piece, cream sofas with green cushions and round coffee tables.",
+    ),
+    published: true,
+    story: [],
+  },
+
+  {
+    slug: "contemporary-villas-qatar",
+    title: "Contemporary Villas, Qatar",
+    summary: "A row of 400 m² contemporary villas in Qatar with white volumes, tall slot windows and a planted street edge.",
+    disciplines: ["exterior", "visualization"],
+    type: "Private villas",
+    location: "Qatar",
+    area: "400 m²",
+    role: "Exterior design and visualization",
+    cover: f(
+      "qatar-contemporary-villas/street",
+      "Three identical white contemporary villas with tall dark windows behind a low wall and trees.",
+    ),
+    published: true,
+    story: [],
+  },
+
+  {
+    slug: "classical-villa-qatar",
+    title: "Classical Villa, Qatar",
+    summary: "An 800 m² villa in Qatar in a French classical manner: mansard roofs, dormer windows and timber gates.",
+    disciplines: ["exterior", "visualization"],
+    type: "Private villa, classical style",
+    location: "Qatar",
+    area: "800 m²",
+    role: "Exterior design and visualization",
+    cover: f(
+      "qatar-classical-villa/street",
+      "Beige stone villa with steep mansard roofs and dormers behind a boundary wall with timber gates.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "pair",
+        figures: [
+          f("qatar-classical-villa/angle", "Angled view of the villa’s roofline and dormers.", "Roofline and dormers."),
+          f("qatar-classical-villa/front", "Front of the villa with timber gates in the boundary wall.", "Street front."),
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "contemporary-residential",
+    title: "Contemporary Residential",
+    summary: "Contemporary houses and apartment buildings: Villa 108 in Saudi Arabia, a compound unit in Egypt and a mixed-use building.",
+    disciplines: ["exterior", "visualization"],
+    type: "Selected residential exteriors",
+    role: "Exterior design and visualization",
+    cover: f(
+      "contemporary-residential/villa-108",
+      "Contemporary villa with grey render, timber slat screens and planted balconies, the name Villa 108 on the wall.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "figure",
+        size: "wide",
+        figure: f(
+          "contemporary-residential/villa-108-front",
+          "Straight-on view of Villa 108 showing the slatted screens and recessed balconies.",
+          "Villa 108, Saudi Arabia.",
+        ),
+      },
+      {
+        type: "pair",
+        figures: [
+          f("contemporary-residential/compound-unit", "Low-rise apartment building with white balconies behind a timber deck and lawn.", "Compound unit, Egypt."),
+          f("contemporary-residential/mixed-use", "Corner apartment building with dark and white volumes and planted balconies.", "Mixed-use residential building."),
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "mall-new-damietta",
+    title: "Mall, New Damietta",
+    summary: "A 400 m² mall frontage in New Damietta: patterned perforated screens framed in bronze-toned panels, rendered at night and by day.",
+    disciplines: ["exterior", "visualization"],
+    type: "Retail",
+    location: "New Damietta, Egypt",
+    area: "400 m²",
+    role: "Facade design and visualization",
+    cover: f(
+      "mall-new-damietta/night",
+      "Symmetrical mall facade at night with patterned perforated screens, bronze frames and warm uplighting.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "figure",
+        size: "wide",
+        figure: f("mall-new-damietta/day", "The mall frontage by day from a low angle, with palms and a parked car in front.", "By day."),
+      },
+    ],
+  },
+
+  {
+    slug: "master-plan-egypt",
+    title: "Master Plan, Egypt",
+    summary: "A 50,000 m² master plan organised around a circular central building, water features and landscaped routes.",
+    disciplines: ["architecture", "landscape"],
+    type: "Master plan",
+    location: "Egypt",
+    area: "50,000 m²",
+    role: "Master planning and visualization",
+    cover: f(
+      "master-plan-egypt/aerial",
+      "Aerial render of a large master plan with a ring-shaped building, blue water channels and landscaped paths.",
+    ),
+    published: true,
+    story: [],
+  },
+
+  {
+    slug: "residential-interiors",
+    title: "Residential Interiors",
+    summary: "Living rooms, bedrooms, a kitchen and a children’s room: warm neutral palettes, timber, stone and controlled lighting.",
+    disciplines: ["interior", "visualization"],
+    type: "Selected residential interiors",
+    role: "Interior design and visualization",
+    cover: f(
+      "residential-interiors/living-light",
+      "Bright living room with a long cream sofa, timber wall panels with shelving and large windows.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "grid",
+        figures: [
+          f("residential-interiors/bedroom-rings", "Bedroom with timber panelling and gold ring wall lights.", "Bedroom."),
+          f("residential-interiors/living-beige", "Living room with curved sofas and a timber feature wall.", "Living room."),
+          f("residential-interiors/bedroom-mirror", "Bedroom with slatted headboard wall and round mirror.", "Bedroom with dressing table."),
+          f("residential-interiors/living-sculpture", "Living room with a sculptural armchair and abstract art.", "Reading corner."),
+          f("residential-interiors/living-fireplace", "Living room with a long linear fireplace and grey sofas.", "Living room with fireplace."),
+          f("residential-interiors/kitchen", "L-shaped white kitchen with timber slats and a stone-look floor.", "Kitchen."),
+          f("residential-interiors/childrens-room", "Children’s room with a moon-and-star theme and a play area.", "Children’s room."),
+          f("residential-interiors/vanity", "Double vanity in stone with timber surround and backlighting.", "Vanity."),
+          f("residential-interiors/coffee-table", "Close-up of books, a candle lantern and a clock on a coffee table.", "Detail."),
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "commercial-interiors",
+    title: "Commercial Interiors",
+    summary: "A café counter, a boutique, offices and a meeting room: workplaces and shops with a clear material identity.",
+    disciplines: ["interior", "visualization"],
+    type: "Selected commercial interiors",
+    role: "Interior design and visualization",
+    cover: f(
+      "commercial-interiors/cafe",
+      "Café counter with terrazzo front, open timber shelving and a branded sign above.",
+    ),
+    published: true,
+    story: [
+      {
+        type: "grid",
+        figures: [
+          f("commercial-interiors/boutique", "Boutique with arched display niches and lit shelving.", "Boutique."),
+          f("commercial-interiors/sales-office", "Sales office with timber shelving and four desks.", "Sales office."),
+          f("commercial-interiors/meeting-room", "Meeting room with a long table and a planter running down its centre.", "Meeting room."),
+          f("commercial-interiors/reception", "Reception desk in stone with a curved chair and marble wall.", "Reception."),
+        ],
       },
     ],
   },

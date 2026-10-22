@@ -1,0 +1,4 @@
+home mobile: perf 97 a11y 100 bp 100 seo 100 | LCP 2.6 s CLS 0
+home desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.5 s CLS 0
+work_lamar-business-park mobile: perf 99 a11y 100 bp 100 seo 100 | LCP 2.2 s CLS 0
+work_lamar-business-park desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.5 s CLS 0.001

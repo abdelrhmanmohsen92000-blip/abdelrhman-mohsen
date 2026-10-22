@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { defaultLocale, localeDir, profile, site } from "@/content";
 import { Footer } from "@/components/Footer";
-import { MobileHeader } from "@/components/MobileHeader";
-import { TitleBlock } from "@/components/TitleBlock";
+import { RevealObserver, revealBootScript } from "@/components/RevealObserver";
+import { SiteHeader } from "@/components/SiteHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { ogPath } from "@/lib/media";
 import { absoluteUrl, siteUrl } from "@/lib/url";
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f1f2ef",
+  themeColor: "#181a1c",
   colorScheme: "light",
 };
 
@@ -69,7 +69,10 @@ const personSchema = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang={defaultLocale} dir={localeDir[defaultLocale]} className={archivo.variable}>
+    <html lang={defaultLocale} dir={localeDir[defaultLocale]} className={archivo.variable} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: revealBootScript }} />
+      </head>
       <body>
         <a
           href="#main"
@@ -78,16 +81,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {site.ui.skipToContent}
         </a>
         <JsonLd data={personSchema} />
-        <div className="shell">
-          <div className="min-w-0">
-            <MobileHeader />
-            <main id="main" tabIndex={-1} className="outline-none">
-              {children}
-            </main>
-            <Footer />
-          </div>
-          <TitleBlock />
-        </div>
+        <SiteHeader />
+        <main id="main" tabIndex={-1} className="outline-none">
+          {children}
+        </main>
+        <Footer />
+        <RevealObserver />
       </body>
     </html>
   );

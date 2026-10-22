@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="px-[var(--gutter)] pt-16 pb-10">
+    <div className="px-[var(--gutter)] pt-[calc(var(--header-h)+4rem)] pb-16">
       <p className="t-label">404</p>
       <h1 className="t-title mt-4 max-w-[16ch]">This sheet isn’t in the set.</h1>
       <p className="t-lead mt-6 text-lead">The page may have moved. The project list has everything that’s published.</p>

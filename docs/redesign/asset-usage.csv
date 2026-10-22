@@ -1,0 +1,358 @@
+set,file,width,height,ratio,status,published as,placement / reason
+master,bim/cde-structure,785,516,1.52,published,bim/cde-structure,Project / BIM / About page
+master,bim/material-takeoff,1227,834,1.47,published,bim/material-takeoff,Project / BIM / About page
+master,bim/navisworks,1920,1080,1.78,published,bim/navisworks,Project / BIM / About page
+master,buraydah-town-houses/cover-render,2739,1567,1.75,published,buraydah-town-houses/cover-render,Homepage + project page
+master,buraydah-town-houses/first-3d,3812,2700,1.41,published,buraydah-town-houses/first-3d,Project / BIM / About page
+master,buraydah-town-houses/first-floor,3812,2700,1.41,published,buraydah-town-houses/first-floor,Project / BIM / About page
+master,buraydah-town-houses/ground-3d,3812,2706,1.41,published,buraydah-town-houses/ground-3d,Homepage + project page
+master,buraydah-town-houses/section,3812,2700,1.41,published,buraydah-town-houses/section,Project / BIM / About page
+master,buraydah-town-houses/site-plan,3812,2700,1.41,published,buraydah-town-houses/site-plan,Project / BIM / About page
+master,buraydah-town-houses/stair,3812,2700,1.41,published,buraydah-town-houses/stair,Project / BIM / About page
+master,buraydah-town-houses/zoning,3812,2700,1.41,published,buraydah-town-houses/zoning,Project / BIM / About page
+master,classical-facades/arched-entrance,3000,1688,1.78,published,classical-facades/arched-entrance,Project / BIM / About page
+master,classical-facades/cairo-building,3000,2144,1.40,published,classical-facades/cairo-building,Project / BIM / About page
+master,classical-facades/corner-building,3200,2400,1.33,published,classical-facades/corner-building,Project / BIM / About page
+master,classical-facades/facade-model,3822,4200,0.91,published,classical-facades/facade-model,Project / BIM / About page
+master,classical-facades/shop-drawing-sheet,4200,2698,1.56,published,classical-facades/shop-drawing-sheet,Project / BIM / About page
+master,classical-facades/street-view,2500,2500,1.00,published,classical-facades/street-view,Project / BIM / About page
+master,commercial-interiors/boutique,1080,900,1.20,published,commercial-interiors/boutique,Project / BIM / About page
+master,commercial-interiors/cafe,1200,900,1.33,published,commercial-interiors/cafe,Project / BIM / About page
+master,commercial-interiors/meeting-room,1200,900,1.33,published,commercial-interiors/meeting-room,Project / BIM / About page
+master,commercial-interiors/reception,2000,1500,1.33,published,commercial-interiors/reception,Project / BIM / About page
+master,commercial-interiors/sales-office,2000,1500,1.33,published,commercial-interiors/sales-office,Project / BIM / About page
+master,commercial-promenade/aerial-2,3200,2794,1.15,published,commercial-promenade/aerial-2,Project / BIM / About page
+master,commercial-promenade/aerial,3200,2846,1.12,published,commercial-promenade/aerial,Project / BIM / About page
+master,commercial-promenade/glass-facade,3200,2347,1.36,published,commercial-promenade/glass-facade,Project / BIM / About page
+master,commercial-promenade/kiosk,3200,2400,1.33,published,commercial-promenade/kiosk,Project / BIM / About page
+master,commercial-promenade/plaza,3200,2400,1.33,published,commercial-promenade/plaza,Project / BIM / About page
+master,contemporary-residential/compound-unit,2000,1125,1.78,published,contemporary-residential/compound-unit,Project / BIM / About page
+master,contemporary-residential/mixed-use,3000,2144,1.40,published,contemporary-residential/mixed-use,Project / BIM / About page
+master,contemporary-residential/villa-108-front,3000,2250,1.33,published,contemporary-residential/villa-108-front,Project / BIM / About page
+master,contemporary-residential/villa-108,3000,2250,1.33,published,contemporary-residential/villa-108,Project / BIM / About page
+master,corner-villa/cutaway-garden,4200,2026,2.07,published,corner-villa/cutaway-garden,Project / BIM / About page
+master,corner-villa/cutaway,4200,2233,1.88,published,corner-villa/cutaway,Homepage + project page
+master,corner-villa/elevation-front,4200,1316,3.19,published,corner-villa/elevation-front,Project / BIM / About page
+master,corner-villa/elevation-rear,4200,1342,3.13,published,corner-villa/elevation-rear,Project / BIM / About page
+master,corner-villa/exploded,2610,4200,0.62,published,corner-villa/exploded,Project / BIM / About page
+master,corner-villa/model,2377,1534,1.55,published,corner-villa/model,Project / BIM / About page
+master,corner-villa/plan-first,3103,1983,1.56,published,corner-villa/plan-first,Project / BIM / About page
+master,corner-villa/plan-ground,3071,2082,1.48,published,corner-villa/plan-ground,Project / BIM / About page
+master,corner-villa/plan-upper,1588,1044,1.52,published,corner-villa/plan-upper,Project / BIM / About page
+master,corner-villa/section-2,3189,988,3.23,published,corner-villa/section-2,Project / BIM / About page
+master,corner-villa/section,4200,2056,2.04,published,corner-villa/section,Project / BIM / About page
+master,courtyard/garden-court,2667,2000,1.33,published,courtyard/garden-court,Homepage + project page
+master,courtyard/water-court,2667,2000,1.33,published,courtyard/water-court,Homepage + project page
+master,estraha/garden,3000,1688,1.78,published,estraha/garden,Project / BIM / About page
+master,estraha/lounge,3000,1688,1.78,published,estraha/lounge,Project / BIM / About page
+master,estraha/pool-lounge,3000,1688,1.78,published,estraha/pool-lounge,Project / BIM / About page
+master,estraha/pool-terrace,3000,1688,1.78,published,estraha/pool-terrace,Homepage + project page
+master,estraha/pool-trees,3000,1688,1.78,published,estraha/pool-trees,Project / BIM / About page
+master,estraha/water-spout,3000,1688,1.78,published,estraha/water-spout,Project / BIM / About page
+master,kaitech-diploma/clash-columns,999,494,2.02,published,kaitech-diploma/clash-columns,Project / BIM / About page
+master,kaitech-diploma/clash-curtain-wall,999,509,1.96,published,kaitech-diploma/clash-curtain-wall,Project / BIM / About page
+master,kaitech-diploma/clash-sprinklers,999,508,1.97,published,kaitech-diploma/clash-sprinklers,Project / BIM / About page
+master,kaitech-diploma/daylight,1200,718,1.67,published,kaitech-diploma/daylight,Project / BIM / About page
+master,kaitech-diploma/embodied-carbon,1200,718,1.67,published,kaitech-diploma/embodied-carbon,Project / BIM / About page
+master,kaitech-diploma/shadow,1200,718,1.67,published,kaitech-diploma/shadow,Project / BIM / About page
+master,kaitech-diploma/solar,1200,718,1.67,published,kaitech-diploma/solar,Project / BIM / About page
+master,lamar-business-park/corner,3200,2400,1.33,published,lamar-business-park/corner,Homepage + project page
+master,lamar-business-park/frontage,3200,2067,1.55,published,lamar-business-park/frontage,Homepage + project page
+master,lamar-business-park/full-frontage,3200,1427,2.24,published,lamar-business-park/full-frontage,Project / BIM / About page
+master,lamar-business-park/street-angle,3200,2400,1.33,published,lamar-business-park/street-angle,Project / BIM / About page
+master,lamar-business-park/street-wide,3200,1702,1.88,published,lamar-business-park/street-wide,Homepage + project page
+master,m3mar-villa/corner,3200,1800,1.78,published,m3mar-villa/corner,Homepage + project page
+master,m3mar-villa/day,3200,1800,1.78,published,m3mar-villa/day,Project / BIM / About page
+master,majlis/majlis,2500,2083,1.20,published,majlis/majlis,Project / BIM / About page
+master,mall-new-damietta/day,3200,2400,1.33,published,mall-new-damietta/day,Project / BIM / About page
+master,mall-new-damietta/night,3200,2400,1.33,published,mall-new-damietta/night,Project / BIM / About page
+master,master-plan-egypt/aerial,1920,1080,1.78,published,master-plan-egypt/aerial,Project / BIM / About page
+master,meydan-villa/garden-sections-2,4200,2795,1.50,published,meydan-villa/garden-sections-2,Project / BIM / About page
+master,meydan-villa/garden-sections,4200,2976,1.41,published,meydan-villa/garden-sections,Project / BIM / About page
+master,meydan-villa/pool-details,4200,2976,1.41,published,meydan-villa/pool-details,Homepage + project page
+master,moroccan-living/bedroom,3200,2400,1.33,published,moroccan-living/bedroom,Project / BIM / About page
+master,moroccan-living/living-2,1920,1599,1.20,published,moroccan-living/living-2,Project / BIM / About page
+master,moroccan-living/living,1920,1599,1.20,published,moroccan-living/living,Homepage + project page
+master,moroccan-living/tv-wall,1920,1599,1.20,published,moroccan-living/tv-wall,Project / BIM / About page
+master,profile/portrait,640,640,1.00,published,profile/portrait,Project / BIM / About page
+master,qatar-classical-villa/angle,1920,1080,1.78,published,qatar-classical-villa/angle,Project / BIM / About page
+master,qatar-classical-villa/front,1920,1080,1.78,published,qatar-classical-villa/front,Project / BIM / About page
+master,qatar-classical-villa/street,1920,1080,1.78,published,qatar-classical-villa/street,Project / BIM / About page
+master,qatar-contemporary-villas/street,2752,1536,1.79,published,qatar-contemporary-villas/street,Project / BIM / About page
+master,residential-interiors/bedroom-mirror,1200,900,1.33,published,residential-interiors/bedroom-mirror,Project / BIM / About page
+master,residential-interiors/bedroom-rings,3200,2400,1.33,published,residential-interiors/bedroom-rings,Project / BIM / About page
+master,residential-interiors/childrens-room,1200,900,1.33,published,residential-interiors/childrens-room,Project / BIM / About page
+master,residential-interiors/coffee-table,1200,900,1.33,published,residential-interiors/coffee-table,Project / BIM / About page
+master,residential-interiors/kitchen,1200,900,1.33,published,residential-interiors/kitchen,Project / BIM / About page
+master,residential-interiors/living-beige,3200,2400,1.33,published,residential-interiors/living-beige,Project / BIM / About page
+master,residential-interiors/living-fireplace,1600,1333,1.20,published,residential-interiors/living-fireplace,Project / BIM / About page
+master,residential-interiors/living-light,3200,2400,1.33,published,residential-interiors/living-light,Project / BIM / About page
+master,residential-interiors/living-sculpture,1400,1166,1.20,published,residential-interiors/living-sculpture,Project / BIM / About page
+master,residential-interiors/vanity,2500,3125,0.80,published,residential-interiors/vanity,Project / BIM / About page
+master,sara-dining/dining-2,1200,1500,0.80,published,sara-dining/dining-2,Project / BIM / About page
+master,sara-dining/dining-3,1200,1500,0.80,published,sara-dining/dining-3,Project / BIM / About page
+master,sara-dining/dining,1200,1000,1.20,published,sara-dining/dining,Project / BIM / About page
+master,square-business-hub/street,3000,1689,1.78,published,square-business-hub/street,Project / BIM / About page
+master,supply-building/elevation-entrance,3190,1587,2.01,published,supply-building/elevation-entrance,Project / BIM / About page
+master,supply-building/elevation-long,3191,823,3.88,published,supply-building/elevation-long,Project / BIM / About page
+master,supply-building/elevation-service,3190,1359,2.35,published,supply-building/elevation-service,Homepage + project page
+master,supply-building/north-elevation-sheet,3191,2257,1.41,published,supply-building/north-elevation-sheet,Project / BIM / About page
+master,supply-building/plan-first,3171,1891,1.68,published,supply-building/plan-first,Project / BIM / About page
+master,supply-building/plan-ground,3171,1885,1.68,published,supply-building/plan-ground,Project / BIM / About page
+master,supply-building/plan-upper,3171,1891,1.68,published,supply-building/plan-upper,Project / BIM / About page
+master,supply-building/wall-section-2,1507,2226,0.68,published,supply-building/wall-section-2,Project / BIM / About page
+master,supply-building/wall-section,1629,2255,0.72,published,supply-building/wall-section,Project / BIM / About page
+master,villa-garden/overview,2500,1875,1.33,published,villa-garden/overview,Project / BIM / About page
+master,villa-garden/side-yard-2,3000,3000,1.00,published,villa-garden/side-yard-2,Project / BIM / About page
+master,villa-garden/side-yard,3000,3000,1.00,published,villa-garden/side-yard,Project / BIM / About page
+master,villa-garden/water-basin-2,2500,1875,1.33,published,villa-garden/water-basin-2,Project / BIM / About page
+master,villa-garden/water-basin,2500,1875,1.33,published,villa-garden/water-basin,Project / BIM / About page
+master,yasser-villa/master-suite,3200,2400,1.33,published,yasser-villa/master-suite,Project / BIM / About page
+original,Designs/01 (2).jpg,4000,3000,1.33,published (via master),yasser-villa/master-suite,
+original,Designs/01 (3) copy.jpg,2500,1875,1.33,published (via master),villa-garden/water-basin,
+original,Designs/01 (3).jpg,2500,1875,1.33,published (via master),villa-garden/water-basin,
+original,Designs/01.jpg,2500,3125,0.80,published (via master),residential-interiors/vanity,
+original,Designs/02 (2) copy.jpg,3000,3000,1.00,published (via master),villa-garden/side-yard-2,
+original,Designs/02 (2).jpg,3000,3000,1.00,published (via master),villa-garden/side-yard-2,
+original,Designs/02 copy.jpg,2500,1875,1.33,published (via master),villa-garden/water-basin-2,
+original,Designs/02.jpg,2500,1875,1.33,published (via master),villa-garden/water-basin-2,
+original,Designs/03 copy.jpg,3000,3000,1.00,published (via master),villa-garden/side-yard,
+original,Designs/03.jpg,3000,3000,1.00,published (via master),villa-garden/side-yard,
+original,Designs/05 (2) copy.jpg,3000,3000,1.00,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/05 (2).jpg,3000,3000,1.00,duplicate,Designs/05 (2) copy.jpg,Exact or near-exact duplicate
+original,Designs/05 copy.jpg,2500,1875,1.33,published (via master),villa-garden/overview,
+original,Designs/05.jpg,2500,1875,1.33,published (via master),villa-garden/overview,
+original,Designs/1 (10).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (11) copy.jpg,3000,2250,1.33,published (via master),contemporary-residential/villa-108,
+original,Designs/1 (11).jpg,3000,2250,1.33,published (via master),contemporary-residential/villa-108,
+original,Designs/1 (12).jpg,1200,857,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (13).jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (14).jpg,2500,2083,1.20,published (via master),majlis/majlis,
+original,Designs/1 (15).jpg,1200,900,1.33,published (via master),residential-interiors/bedroom-mirror,
+original,Designs/1 (16).jpg,2500,2500,1.00,published (via master),classical-facades/street-view,
+original,Designs/1 (17).jpg,1920,1080,1.78,published (via master),qatar-classical-villa/street,
+original,Designs/1 (18).jpg,6000,4500,1.33,published (via master),commercial-promenade/plaza,
+original,Designs/1 (19).jpg,1400,1166,1.20,published (via master),residential-interiors/living-sculpture,
+original,Designs/1 (2).jpg,2000,1500,1.33,published (via master),commercial-interiors/sales-office,
+original,Designs/1 (20).jpg,3556,2000,1.78,published (via master),m3mar-villa/day,
+original,Designs/1 (21).jpg,3000,1688,1.78,published (via master),estraha/lounge,
+original,Designs/1 (22).jpg,1300,1300,1.00,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (23).jpg,1600,1333,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (3).jpg,4000,3000,1.33,published (via master),residential-interiors/bedroom-rings,
+original,Designs/1 (4).jpg,4000,3000,1.33,published (via master),residential-interiors/living-beige,
+original,Designs/1 (5).jpg,1200,900,1.33,published (via master),residential-interiors/childrens-room,
+original,Designs/1 (6).jpg,1200,900,1.33,published (via master),residential-interiors/kitchen,
+original,Designs/1 (7).jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (8).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/1 (9).jpg,4000,3000,1.33,published (via master),mall-new-damietta/day,
+original,Designs/1 copy.jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/1.jpg,1080,900,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/10 (2).jpg,2000,1500,1.33,published (via master),commercial-interiors/reception,
+original,Designs/10 (3).jpg,1200,900,1.33,not published,,Excluded: unlabelled showroom renders; project not documented
+original,Designs/10.jpg,2000,1500,1.33,published (via master),commercial-interiors/reception,
+original,Designs/12 (2).jpg,1200,900,1.33,not published,,Excluded: unlabelled showroom renders; project not documented
+original,Designs/12 (3).jpg,1600,2000,0.80,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/12.jpg,1200,857,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/13.jpg,1200,900,1.33,not published,,Excluded: unlabelled showroom renders; project not documented
+original,Designs/130755161_1127634004334942_3440495934465447349_n.jpg,640,640,1.00,published (via master),profile/portrait,
+original,Designs/14.jpg,1600,2000,0.80,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/145.jpg,3000,2144,1.40,published (via master),contemporary-residential/mixed-use,
+original,Designs/15 (2).jpg,1200,857,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/15 (3).jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/15 (4).jpg,1920,1080,1.78,not published,,Not used: project not identified in any source
+original,Designs/15 (5).jpg,15000,8479,1.77,not published,,Excluded: 2022 pavilion concept study (academic); role not documented
+original,Designs/15.jpg,1800,1350,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/16 (2).jpg,15000,8479,1.77,not published,,Excluded: 2022 pavilion concept study (academic); role not documented
+original,Designs/16.jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/17 (2).jpg,2000,2000,1.00,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/17 (3).jpg,15000,8479,1.77,not published,,Excluded: 2022 pavilion concept study (academic); role not documented
+original,Designs/17.jpg,1080,1350,0.80,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/18.jpg,15000,8479,1.77,not published,,Excluded: 2022 pavilion concept study (academic); role not documented
+original,Designs/19.jpg,1200,1000,1.20,published (via master),sara-dining/dining,
+original,Designs/1F (2).jpg,3000,1689,1.78,published (via master),square-business-hub/street,
+original,Designs/1F.jpg,3000,1689,1.78,published (via master),square-business-hub/street,
+original,Designs/1_1 - Photo.jpg,1920,1080,1.78,not published,,Not used: project not identified in any source
+original,Designs/2 (10).jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (11).jpg,1920,1080,1.78,published (via master),qatar-classical-villa/angle,
+original,Designs/2 (12).jpg,2500,1786,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (13).jpg,1400,1166,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (14).jpg,3556,2000,1.78,published (via master),m3mar-villa/corner,
+original,Designs/2 (15).jpg,1600,1333,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (16).jpg,1300,1300,1.00,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (17).jpg,1600,1333,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (18).jpg,5060,4500,1.12,published (via master),commercial-promenade/aerial,
+original,Designs/2 (2).jpg,4000,3000,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/2 (3).jpg,1920,1440,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (4).jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (5).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (6).jpg,1500,1251,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (7).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2 (8).jpg,3000,2250,1.33,published (via master),contemporary-residential/villa-108-front,
+original,Designs/2 (9).jpg,1260,1400,0.90,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2(1).jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/2.jpg,1080,900,1.20,published (via master),commercial-interiors/boutique,
+original,Designs/2024 Porofolio/3 (1).jpg,9719,5298,1.83,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/4 (1).jpg,9704,1663,5.84,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/6 (1).jpg,3922,7085,0.55,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/8 (1).jpg,11871,3001,3.96,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/FS2.png,4134,5906,0.70,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/FS3.png,4134,5906,0.70,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/LANDSCAPE 3-.png,4134,5906,0.70,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/اول سكنى.jpg,15000,8655,1.73,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/تفاصيل انتريور 24-4-2024-2.png,11811,8267,1.43,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/فاخر 2.png,4134,5906,0.70,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/2024 Porofolio/لوحة 1.png,4134,5906,0.70,not published,,Excluded: academic presentation boards; role and project not documented
+original,Designs/25 (2).jpg,769,957,0.80,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/25.jpg,2500,1875,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/28.jpg,1080,1080,1.00,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/2_15 - Photo.jpg,1920,1080,1.78,not published,,Not used: project not identified in any source
+original,Designs/3 (2).jpg,1350,1500,0.90,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/3 (3).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/3 (4).jpg,1200,900,1.33,published (via master),commercial-interiors/cafe,
+original,Designs/3 (5).jpg,2500,1786,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/3 (6).jpg,1600,1333,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/3 (7).jpg,3000,1688,1.78,published (via master),estraha/water-spout,
+original,Designs/3 (8).jpg,6000,4500,1.33,published (via master),commercial-promenade/kiosk,
+original,Designs/3 copy.jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/3.jpg,1200,1500,0.80,published (via master),sara-dining/dining-2,
+original,Designs/36.jpg,3000,2144,1.40,published (via master),classical-facades/cairo-building,
+original,Designs/3_23 - Photo.jpg,1920,1080,1.78,published (via master),master-plan-egypt/aerial,
+original,Designs/4 (2).jpg,1200,1500,0.80,published (via master),sara-dining/dining-3,
+original,Designs/4 (3).jpg,2500,1786,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/4 (4).jpg,1600,1333,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/4 (5).jpg,3000,1688,1.78,published (via master),estraha/garden,
+original,Designs/4 (6).jpg,1600,1333,1.20,published (via master),residential-interiors/living-fireplace,
+original,Designs/4 (7).jpg,5865,4302,1.36,published (via master),commercial-promenade/glass-facade,
+original,Designs/4 copy.jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/4.jpg,4000,3000,1.33,published (via master),residential-interiors/living-light,
+original,Designs/5 (2).jpg,4000,3000,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/5 (3).jpg,4000,3000,1.33,published (via master),mall-new-damietta/night,
+original,Designs/5 (4).jpg,1200,900,1.33,published (via master),commercial-interiors/meeting-room,
+original,Designs/5 (5).jpg,2500,1786,1.40,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/5 (6).jpg,2500,1406,1.78,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/5 (7).jpg,3000,1688,1.78,published (via master),estraha/pool-trees,
+original,Designs/5 (8).jpg,5154,4500,1.15,published (via master),commercial-promenade/aerial-2,
+original,Designs/5 copy.jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/5.jpg,1800,1350,1.33,duplicate,Designs/يي.jpg,Exact or near-exact duplicate
+original,Designs/6 (2).jpg,1920,1080,1.78,published (via master),qatar-classical-villa/front,
+original,Designs/6 (3).jpg,3000,1688,1.78,published (via master),estraha/pool-lounge,
+original,Designs/6 (4).jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/6 (5).jpg,2000,1125,1.78,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/6 (7).jpg,1200,1000,1.20,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/6 copy.jpg,6000,4500,1.33,not published,,Not used: alternate sky/time or angle of a published render; best version kept
+original,Designs/6.jpg,4000,3000,1.33,published (via master),moroccan-living/bedroom,
+original,Designs/7.jpg,1920,1599,1.20,published (via master),moroccan-living/living-2,
+original,Designs/8 (2).jpg,1920,1599,1.20,published (via master),moroccan-living/tv-wall,
+original,Designs/8.jpg,1200,900,1.33,not published,,Not used: unlabelled render (often 1200 px); similar or stronger rooms already shown
+original,Designs/86.jpg,10417,7813,1.33,published (via master),classical-facades/corner-building,
+original,Designs/87.jpg,2667,2000,1.33,published (via master),courtyard/water-court,
+original,Designs/89.jpg,2667,2000,1.33,published (via master),courtyard/garden-court,
+original,Designs/8F (2).jpg,2000,1125,1.78,published (via master),contemporary-residential/compound-unit,
+original,Designs/8F.jpg,2000,1125,1.78,published (via master),contemporary-residential/compound-unit,
+original,Designs/9 (2).jpg,1920,1599,1.20,published (via master),moroccan-living/living,
+original,Designs/9 (3).jpg,3000,1688,1.78,published (via master),estraha/pool-terrace,
+original,Designs/9 (4).jpg,3000,1688,1.78,published (via master),classical-facades/arched-entrance,
+original,Designs/9 (5).jpg,3000,1688,1.78,published (via master),classical-facades/arched-entrance,
+original,Designs/9.effectsResult.jpg,2000,3333,0.60,not published,,Excluded: post-processed effect version
+original,Designs/9.jpg,1200,900,1.33,published (via master),residential-interiors/coffee-table,
+original,Designs/ai/1/1.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/ai/1/2.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/Building B+A Cam 01 .jpg,6000,3192,1.88,published (via master),lamar-business-park/street-wide,
+original,Designs/Building B+A Cam 02.jpg,6000,4500,1.33,published (via master),lamar-business-park/street-angle,
+original,Designs/Building B+A Cam 03 .jpg,6000,4500,1.33,published (via master),lamar-business-park/corner,
+original,Designs/Building B+A Cam 05.jpg,6000,3876,1.55,published (via master),lamar-business-park/frontage,
+original,Designs/Building B+A Cam 06.jpg,6000,2676,2.24,published (via master),lamar-business-park/full-frontage,
+original,Designs/Claude outputs/Indeed-photo-bw-crop.jpg,700,700,1.00,duplicate,Designs/Claude outputs/Indeed-photo-bw-upscaled.jpg,Exact or near-exact duplicate
+original,Designs/Claude outputs/Indeed-photo-bw-upscaled.jpg,1000,1000,1.00,not published,,Excluded: AI-processed portrait crop
+original,Designs/Details/2.jpg,13309,15000,0.89,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/3.jpg,9933,7038,1.41,published (via master),meydan-villa/pool-details,
+original,Designs/Details/4.jpg,9933,7038,1.41,published (via master),meydan-villa/garden-sections,
+original,Designs/Details/5.jpg,9933,7038,1.41,published (via master),meydan-villa/garden-sections-2,
+original,Designs/Details/Facade Details.jpg,15000,9634,1.56,published (via master),classical-facades/shop-drawing-sheet,
+original,Designs/Details/Salman Villa/0.jpg,15000,8022,1.87,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/00.jpg,15000,7609,1.97,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/000.jpg,15000,6720,2.23,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/0000.jpg,15000,11251,1.33,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/1/1_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/13.jpg,15000,7341,2.04,published (via master),corner-villa/section,
+original,Designs/Details/Salman Villa/14_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/1A.jpg,10836,15000,0.72,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/2/2_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/3/3_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/4_page-0001.jpg,1755,1241,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/9+5.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Salman Villa/BE.jpg,15000,4815,3.12,published (via master),corner-villa/elevation-rear,
+original,Designs/Details/Salman Villa/FE.jpg,15000,4792,3.13,published (via master),corner-villa/elevation-front,
+original,Designs/Details/Supply chain/11.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/12.jpg,3509,2481,1.41,duplicate,Designs/Details/Supply chain/11.jpg,Exact or near-exact duplicate
+original,Designs/Details/Supply chain/1_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/2_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/33/Furniture plan 13-10-2025_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/33/Furniture plan 13-10-2025_page-0002.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/33/Furniture plan 13-10-2025_page-0003.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/33/Furniture plan 13-10-2025_page-0004.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/3_page-0001.jpg,3509,2481,1.41,duplicate,Designs/Details/Supply chain/33/Furniture plan 13-10-2025_page-0002.jpg,Exact or near-exact duplicate
+original,Designs/Details/Supply chain/4_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/5_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/6_page-0001.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/7_page-0001.jpg,3509,2481,1.41,duplicate,Designs/Details/Supply chain/11.jpg,Exact or near-exact duplicate
+original,Designs/Details/Supply chain/9.jpg,3509,2481,1.41,duplicate,Designs/Details/Supply chain/11.jpg,Exact or near-exact duplicate
+original,Designs/Details/Supply chain/ilovepdf_pages-to-jpg/Elevation 23-10-2025_page-0001.jpg,3509,2481,1.41,published (via master),supply-building/north-elevation-sheet,
+original,Designs/Details/Supply chain/ilovepdf_pages-to-jpg/Elevation 23-10-2025_page-0002.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/ilovepdf_pages-to-jpg/Elevation 23-10-2025_page-0003.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Supply chain/ilovepdf_pages-to-jpg/Elevation 23-10-2025_page-0004.jpg,3509,2481,1.41,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Details/Task.jpg,15000,10852,1.38,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Enscape_2022-05-31-08-17-03.png,1920,1080,1.78,not published,,Excluded: 2022 pavilion concept study (academic); role not documented
+original,Designs/New folder/1_(11).jpg_202603211021.jpeg,1376,768,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/1_(11).jpg_202603211023.jpeg,768,1376,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/add_seating_woman_202603211100.png,1792,2400,0.75,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/add_seating_women_202603211054.png,1536,2752,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211025.png,1536,2752,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211028.png,1536,2752,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211047.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211107.png,1536,2752,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211116.png,1536,2752,0.56,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211119.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211127.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202603211524.png,2752,1536,1.79,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/New folder/create_same_image_202604060226.png,1792,2400,0.75,not published,,Excluded: AI-generated or AI-edited variant (file names / dimensions)
+original,Designs/Test 1.jpg,1920,1599,1.20,not published,,Excluded: test renders
+original,Designs/Test 2.jpg,1920,1599,1.20,not published,,Excluded: test renders
+original,Designs/Upwork-Ready/1-private-villa-revit-package/01-cutaway-axon.jpg,3600,1954,1.84,published (via master),corner-villa/cutaway,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/02-cutaway-axon-garden.jpg,3600,1797,2.00,published (via master),corner-villa/cutaway-garden,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/03-3d-model-view.jpg,2477,1632,1.52,published (via master),corner-villa/model,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/04-exploded-axon-floors.jpg,2253,3600,0.63,published (via master),corner-villa/exploded,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/05-ground-floor-plan.jpg,3169,2179,1.45,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/1-private-villa-revit-package/06-first-floor-plan.jpg,3201,2082,1.54,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/1-private-villa-revit-package/07-front-elevation.jpg,3600,1150,3.13,published (via master),corner-villa/elevation-front,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/08-rear-elevation.jpg,3600,1156,3.11,published (via master),corner-villa/elevation-rear,
+original,Designs/Upwork-Ready/1-private-villa-revit-package/09-building-section.jpg,3600,1762,2.04,duplicate,Designs/Details/Salman Villa/13.jpg,Exact or near-exact duplicate
+original,Designs/Upwork-Ready/2-commercial-business-park/01-street-view-main.jpg,3600,2700,1.33,published (via master),lamar-business-park/street-angle,
+original,Designs/Upwork-Ready/2-commercial-business-park/02-street-view-wide.jpg,3600,1915,1.88,published (via master),lamar-business-park/street-wide,
+original,Designs/Upwork-Ready/2-commercial-business-park/03-facade-center.jpg,3600,2326,1.55,published (via master),lamar-business-park/frontage,
+original,Designs/Upwork-Ready/2-commercial-business-park/04-facade-elevation-view.jpg,3600,1606,2.24,published (via master),lamar-business-park/full-frontage,
+original,Designs/Upwork-Ready/2-commercial-business-park/05-corner-detail.jpg,3600,2700,1.33,published (via master),lamar-business-park/corner,
+original,Designs/Upwork-Ready/2-commercial-business-park/06-plaza-view.jpg,3600,2700,1.33,published (via master),commercial-promenade/plaza,
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/01-front-elevation.jpg,3290,1691,1.95,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/02-side-elevation.jpg,3290,921,3.57,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/03-rear-elevation.jpg,3290,1458,2.26,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/04-wall-section-1.jpg,1728,2354,0.73,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/05-wall-section-2.jpg,1605,2327,0.69,published (via master),supply-building/wall-section-2,
+original,Designs/Upwork-Ready/3-admin-facility-elevations-sections/06-ground-floor-plan.jpg,3269,1983,1.65,not published,,"Not used separately: same drawing published from the full-resolution PPTX/sheet version, or an additional sheet of a published set"
+original,Designs/Upwork-Ready/4-villa-courtyard-and-pool/01-courtyard-pool.jpg,2667,2000,1.33,published (via master),courtyard/water-court,
+original,Designs/Upwork-Ready/4-villa-courtyard-and-pool/02-courtyard-garden.jpg,2667,2000,1.33,published (via master),courtyard/garden-court,
+original,Designs/Upwork-Ready/4-villa-courtyard-and-pool/03-pool-terrace.jpg,3000,1688,1.78,published (via master),estraha/pool-terrace,
+original,Designs/Upwork-Ready/4-villa-courtyard-and-pool/04-modern-villa-exterior.jpg,3000,1688,1.78,published (via master),estraha/lounge,
+original,Designs/Upwork-Ready/5-moroccan-inspired-living/01-living-room.jpg,1920,1599,1.20,published (via master),moroccan-living/living,
+original,Designs/Upwork-Ready/5-moroccan-inspired-living/02-living-room-view-2.jpg,1920,1599,1.20,published (via master),moroccan-living/living-2,
+original,Designs/Upwork-Ready/5-moroccan-inspired-living/03-tv-wall.jpg,1920,1599,1.20,published (via master),moroccan-living/tv-wall,
+original,Designs/Upwork-Ready/5-moroccan-inspired-living/04-bedroom.jpg,3600,2700,1.33,published (via master),moroccan-living/bedroom,
+original,Designs/Upwork-Ready/6-classic-facade-concept-to-shop-drawing/01-facade-concept-and-shop-drawing.jpg,3600,2312,1.56,published (via master),classical-facades/shop-drawing-sheet,
+original,Designs/Upwork-Ready/6-classic-facade-concept-to-shop-drawing/02-classic-villa-exterior.jpg,3556,2000,1.78,published (via master),m3mar-villa/day,
+original,Designs/Upwork-Ready/6-classic-facade-concept-to-shop-drawing/03-classic-villa-exterior-2.jpg,3556,2000,1.78,published (via master),m3mar-villa/corner,
+original,Designs/Upwork-Ready/6-classic-facade-concept-to-shop-drawing/06-classic-residential-exterior.jpg,2500,2500,1.00,published (via master),classical-facades/street-view,
+original,Designs/ءء.jpg,2500,1875,1.33,published (via master),contemporary-residential/villa-108,
+original,Designs/سس.jpg,2500,1875,1.33,published (via master),villa-garden/overview,
+original,Designs/شش.jpg,1920,1080,1.78,published (via master),master-plan-egypt/aerial,
+original,Designs/يي.jpg,2500,1875,1.33,not published,,Excluded: black-and-white copy of a used render
+original,Designs/first.jpg,,,,unreadable,,File cannot be decoded

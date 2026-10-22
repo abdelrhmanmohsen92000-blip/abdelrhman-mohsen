@@ -1,0 +1,2 @@
+home mobile: perf 94 a11y 100 bp 100 seo 100 | LCP 2.9 s CLS 0
+home desktop: perf 100 a11y 100 bp 100 seo 100 | LCP 0.7 s CLS 0

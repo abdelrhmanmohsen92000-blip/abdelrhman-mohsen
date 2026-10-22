@@ -6,30 +6,98 @@ import type { Credential, Job, RecordProject, Service } from "../types";
 export const home = {
   headline: "Designed to be seen. Modelled to be built.",
   headlineParts: ["Designed to be seen.", "Modelled to be built."],
-  heroRender: {
+  kicker: "BIM architect and architectural designer, based in Egypt",
+  hero: {
     slug: "lamar-business-park",
-    id: "lamar-business-park/street-angle",
-    alt: "Render of Lamar Business Park: office buildings with framed window bays above glazed shopfronts.",
-    caption: "Lamar Business Park, facade render",
+    id: "lamar-business-park/street-wide",
+    alt: "Render of Lamar Business Park: a row of office buildings with framed window bays above glazed shopfronts and a planted verge.",
+    caption: "Lamar Business Park, 30,000 m²",
   },
-  heroDrawing: {
-    slug: "private-villa-corner-plot",
-    id: "corner-villa/exploded",
-    alt: "Exploded Revit axonometric of a villa, each furnished floor lifted apart.",
-    caption: "Private villa, exploded Revit axonometric",
-  },
-  featured: [
-    "supply-administration-building",
-    "moroccan-inspired-living",
-    "estraha-rest-house",
-    "private-villa-corner-plot",
-    "lamar-business-park",
-    "buraydah-town-houses",
-  ],
-  notesTitle: "General notes",
-  ctaTitle: "Have a role or a project in mind?",
   intro:
     "I’m a BIM architect and designer based in Egypt. I design villas, facades, interiors and gardens, and I take buildings through Revit modelling, Navisworks coordination and construction documentation, on projects in Egypt, Saudi Arabia, the UAE and Qatar.",
+  workTitle: "Selected work",
+  /**
+   * The homepage sequence. Each entry picks its own image (not always the project cover) and a
+   * layout: "bleed" runs edge to edge, "left"/"right" set the image beside the text, "layered"
+   * sets a drawing over the render it belongs to.
+   */
+  featured: [
+    {
+      slug: "lamar-business-park",
+      layout: "bleed",
+      image: { id: "lamar-business-park/frontage", alt: "Lamar Business Park frontage with the park sign on a planted wall." },
+      detail: { id: "lamar-business-park/corner", alt: "Curved building corner with building numbers and roof planting." },
+      text: "Master planning, BIM documentation and facade design for a 30,000 m² park of offices over shops. Deep-set framed bays give a long block a readable rhythm.",
+    },
+    {
+      slug: "buraydah-town-houses",
+      layout: "layered",
+      image: { id: "buraydah-town-houses/cover-render", alt: "Terracotta townhouse with rounded volumes and palms in planters." },
+      detail: { id: "buraydah-town-houses/ground-3d", alt: "3D cutaway plan of the townhouse ground floor from the Revit model." },
+      text: "Six townhouses in Buraydah, modelled in Revit and documented in a 52-sheet set, from site plan to stair and wet-area details.",
+    },
+    {
+      slug: "m3mar-villa",
+      layout: "right",
+      image: { id: "m3mar-villa/corner", alt: "White classical villa seen from the street corner, with arched windows and a columned balcony." },
+      text: "A 600 m² classical villa in Qatar. Tall arches, a columned portico and a boundary wall that repeats them, so house and enclosure read as one composition.",
+    },
+    {
+      slug: "estraha-rest-house",
+      layout: "left",
+      image: { id: "estraha/pool-terrace", alt: "Long pool terrace with sunken lounge seating beside a white pavilion." },
+      text: "Outdoor rooms for a 350 m² rest house in Saudi Arabia: pool terrace, lounge, water feature and garden around a white pavilion.",
+    },
+    {
+      slug: "moroccan-inspired-living",
+      layout: "right",
+      image: { id: "moroccan-living/living", alt: "Living room with a curved sofa, carved arch panel and textured stone wall." },
+      text: "A living room and bedroom where a carved arch, textured relief and soft curves carry a quiet Moroccan language.",
+    },
+    {
+      slug: "courtyard-water-feature",
+      layout: "left",
+      image: { id: "courtyard/water-court", alt: "Covered courtyard with a reflecting pool, stepping stones and arched niches." },
+      text: "An Arabic-inspired courtyard: a reflecting pool crossed by stepping stones, framed by arched niches and planting.",
+    },
+  ],
+  moreTitle: "More projects",
+  expertise: {
+    title: "Two halves of one practice",
+    design: {
+      title: "Design",
+      body: "Villas, facades, interiors and gardens, developed until the renders can be trusted to look like the building.",
+      items: ["Architectural design and master planning", "Contemporary and classical facades", "Residential and commercial interiors", "Courtyards, gardens and pool terraces", "Photoreal visualization"],
+      cta: "Design services",
+    },
+    bim: {
+      title: "BIM & delivery",
+      body: "Coordinated Revit models and the drawings, schedules and licensing packages that come out of them.",
+      items: ["Revit models to LOD 350+", "Arc/Str/MEP clash coordination in Navisworks", "Shop drawings and wall sections", "Schedules, take-offs and BOQ", "ISO 19650 workflows on BIM 360 / ACC"],
+      cta: "See BIM & documentation",
+    },
+    drawings: [
+      { id: "corner-villa/cutaway", alt: "Cutaway Revit axonometric of a three-storey villa.", caption: "Cutaway from the Revit model, private villa", slug: "private-villa-corner-plot" },
+      { id: "supply-building/elevation-service", alt: "Shaded elevation of the Supply Administration Building.", caption: "Service elevation, Supply Administration Building", slug: "supply-administration-building" },
+      { id: "meydan-villa/pool-details", alt: "Swimming pool sections and details sheet.", caption: "Pool details, Meydan Villa, Dubai", slug: "meydan-villa" },
+    ],
+  },
+  /** Facts set as a drawing title block. All from the CV and certificates. */
+  facts: [
+    { label: "In practice", value: "4+ years" },
+    { label: "Largest BIM development", value: "150,000 m²" },
+    { label: "Model detail", value: "LOD 350+" },
+    { label: "Projects in", value: "Egypt, Saudi Arabia, UAE, Qatar" },
+    { label: "BIM diploma", value: "KAITECH, 93.2%" },
+  ],
+  closing: {
+    title: "Hiring for BIM or design work, or planning a building?",
+    body: "Send a role, a brief or a set of drawings. I work remotely, hybrid or on site, and I’m open to relocation.",
+    image: { id: "courtyard/garden-court", alt: "" },
+  },
+  // Kept for the About and BIM pages.
+  notesTitle: "General notes",
+  ctaTitle: "Have a role or a project in mind?",
   forCompanies: {
     title: "For firms and consultancies",
     body: "Revit models to LOD 350+, multidisciplinary clash coordination, shop drawings, schedules and licensing packages, delivered remotely or on site.",

@@ -47,7 +47,7 @@ export default function ServicesPage() {
 
   return (
     <div className="px-[var(--gutter)]">
-      <header className="grid gap-6 pt-10 pb-14 md:grid-cols-12 md:pt-16">
+      <header className="grid gap-6 pt-[calc(var(--header-h)+2.5rem)] pb-14 md:grid-cols-12 md:pt-[calc(var(--header-h)+4rem)]">
         <h1 className="t-title md:col-span-6">{servicesPage.title}</h1>
         <p className="t-lead text-lead md:col-span-6 md:self-end">{servicesPage.intro}</p>
       </header>

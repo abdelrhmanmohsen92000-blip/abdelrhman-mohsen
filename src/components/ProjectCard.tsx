@@ -36,18 +36,13 @@ export function ProjectCard({ project, sizes, ratio = "4 / 3", headingLevel = "h
           />
         </div>
       ) : (
-        <Picture
-          id={project.cover.id}
-          alt={project.cover.alt}
-          sizes={sizes}
-          ratio={ratio}
-          priority={priority}
-          className="transition-[filter] duration-300 group-hover:brightness-[0.92]"
-        />
+        <div className="frame">
+          <Picture id={project.cover.id} alt={project.cover.alt} sizes={sizes} ratio={ratio} priority={priority} />
+        </div>
       )}
       <div className="mt-3 flex items-baseline justify-between gap-4">
         <Heading className={large ? "t-heading" : "t-subheading"}>
-          <Link href={`/work/${project.slug}`} className="after:absolute after:inset-0 group-hover:text-redline">
+          <Link href={`/work/${project.slug}`} className="after:absolute after:inset-0 group-hover:text-accent">
             {project.title}
           </Link>
         </Heading>
