@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://abdelrhmanmohsen92000-blip.github.io/abdelrhman-mohsen/sitemap.xml

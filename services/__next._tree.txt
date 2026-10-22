@@ -1,0 +1,4 @@
+:HL["/abdelrhman-mohsen/_next/static/media/archivo_variable-s.p.2mro_pgh3q5y-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"services","h":64,"c":"$Q2"}]]
+0:{"b":"E2vO8dHkk3QAEmWkwCLMI","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
