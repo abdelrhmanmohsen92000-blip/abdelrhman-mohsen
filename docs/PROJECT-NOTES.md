@@ -155,6 +155,10 @@ Plus 404, `sitemap.xml`, `robots.txt`, JSON-LD (Person, CreativeWork) and Open G
   script and prefetch that started before it. With DevTools throttling, one quiet run gave Home 97
   (FCP 1.4 s, LCP 1.8 s). Later runs were 71–77 with TBT up to 1.1 s, so DevTools numbers on this
   machine depend on CPU load. Re-measure on the deployed URL with PageSpeed Insights.
+- **Live site (GitHub Pages, 22 Oct 2026), Lighthouse 12 mobile:** Home 96, Work 96, Supply
+  Administration Building 99, BIM 99, About 99 for performance; accessibility, best practices and
+  SEO 100 on all five. FCP 1.0–1.1 s, LCP 2.0–2.8 s, CLS 0. A crawl of all 30 sitemap pages and
+  1,126 referenced files found no errors; unknown URLs return the custom 404 page.
 - Fixes made because of testing: classification of renders vs drawings; drawing cards aligned
   in the grid; unlayered component CSS overriding Tailwind utilities; chip label contrast;
   heading order on /work; hero animation no longer hides images (LCP); CSS inlined; font
